@@ -67,7 +67,7 @@
 <hr />
  
           <a name="patrons"></a><h3>PATRON OPPORTUNITIES</h3>
-          <p>Experience the best Car Classic has to offer by becoming a Car Classic patron! In addition to a tax-deductible donation, Car Classic Patrons enjoy early admission to the field, a private breakfast with legendary automotive designers in the Hyundai and Kia Innovation Lab, a curated field experience alongside Car Classic judges, on campus VIP parking and special recognition.</p>
+          <p>Experience the best Car Classic has to offer by becoming a <a href="/carclassic/pdf/2017_CarClassicBenefitsandResponseForm.pdf">Car Classic patron</a>! In addition to a tax-deductible donation, Car Classic Patrons enjoy early admission to the field, a private breakfast with legendary automotive designers in the Hyundai and Kia Innovation Lab, a curated field experience alongside Car Classic judges, on campus VIP parking and special recognition.</p>
           <p>For more information about the patron program, please contact Amy Swain at&nbsp;<a href="mailto:keiko.doi@artcenter.edu?subject=Car%20Classic%20Patron%20Opportunities">amy.swain@artcenter.edu</a>.</p>
       </div>
         
