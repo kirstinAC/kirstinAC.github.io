@@ -1,0 +1,119 @@
+@charset "UTF-8";
+html {
+    overflow-y: scroll;
+}
+body {
+	background-image: url(../images/cc12_bkgd.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #515151;
+	background-color: #FFF;
+}
+a {
+	color: #16BAD0;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+#wrapper {
+	width: 868px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#wrapper #quoteBar {
+	height: 32px;
+	margin-top: 0px;
+	margin-bottom: 24px;
+	width: 828px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+#wrapper #quoteBar .quote {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #64308f;
+}
+#wrapper #quoteBar .attrib {
+	color: #64308f;
+	font-size: 13px;
+	font-family: "Times New Roman", Times, serif;
+	margin-right: 12px;
+}
+#wrapper #nav {
+	float: left;
+	width: 180px;
+	margin-left: 20px;
+	font-size: 17px;
+	font-weight: normal;
+}
+#wrapper #content {
+	float: right;
+	width: 610px;
+	margin-right: 20px;
+}
+#wrapper #content h2 {
+	font-size: 20px;
+	line-height: 25px;
+	color: #16BAD0;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0.5em;
+	margin-left: 0px;
+}
+#wrapper #content h3 {
+	font-size: 17px;
+	line-height: 25px;
+	color: #ED2C8F;
+	font-weight: normal;
+	text-decoration: underline;
+	margin-top: 1em;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#wrapper #content h4   {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: normal;
+	margin: 0px;
+}
+#wrapper #content h5 {
+	margin:0px;
+	margin-top:0.75em;
+	font-weight:normal;
+	font-size:14px
+}
+#wrapper #content p {
+	margin: 0px;
+}
+#wrapper #footer {
+	clear: both;
+	background-image: url(../images/cc12_footer.png);
+	background-repeat: no-repeat;
+	height: 75px;
+	background-position: 2px 0px;
+}
+#wrapper #nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#wrapper #nav ul li {
+	margin-top: 5px;
+}
+#wrapper #nav ul li a {
+	color: #515151;
+	text-decoration: none;
+}
+#wrapper #nav ul li a:hover {
+	color: #16BAD0;
+	text-decoration:none;
+}

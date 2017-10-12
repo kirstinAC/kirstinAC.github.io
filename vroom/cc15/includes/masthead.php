@@ -1,0 +1,2 @@
+<div class="mastHead">
+  <div style="max-width:996px; min-width:320px; margin:auto; "><a href="index.php"><img src="images/CC15_masthead2_type.png" width="100%" alt="CAR CLASSIC 2015 | VISIONS OF THE FUTURE | SUNDAY, OCTOBER 22 | ARTCENTER COLLEGE OF DESIGN | PASADENA, CA" style="display:block; border:none;" /></a></div> </div>

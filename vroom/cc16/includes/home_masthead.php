@@ -1,0 +1,2 @@
+<div class="homeMastHead">
+  <div style="max-width:996px; min-width:320px; margin:auto; "><img src="images/CC16_masthead_type.png" width="100%" alt="CAR CLASSIC 2015 BUILT BY HAND | SUNDAY, OCTOBER 23 | ARTCENTER COLLEGE OF DESIGN | PASADENA, CA" style="display:block;" /></div> </div>

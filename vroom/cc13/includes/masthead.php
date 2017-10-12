@@ -1,0 +1,1 @@
+<div class="mastHead"><a href="index.php"><img src="images/car_classic_masthead.png" width="100%"  alt="Art Center Weekend | INSPIRED BY NATURE | CAR CLASSIC 2013" class="headerImage"/></a></div>

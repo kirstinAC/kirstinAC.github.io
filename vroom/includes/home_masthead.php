@@ -1,0 +1,3 @@
+<div class="homeMastHead">
+  <div style="max-width:996px; min-width:298px; margin:auto; "><a href="index.php"><meta property="og:image" content="http://artcenter.edu/carclassic/images/CC17_webbanner.jpg"><img src="images/CC17_webbanner_home.jpg" width="100%" alt="CAR CLASSIC 2017: RED, WHITE AND BLUE | SUNDAY, OCTOBER 22 | ARTCENTER COLLEGE OF DESIGN | PASADENA, CA" style="display:block;" /></div> </div>
+  

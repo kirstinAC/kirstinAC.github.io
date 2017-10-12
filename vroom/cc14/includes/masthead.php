@@ -1,0 +1,3 @@
+<div class="mastHead"><div class="wideHeader"><a href="index.php"><img src="images/CC14_mobile_masthead.png" width="100%"  alt="STREET TO SCREEN | CAR CLASSIC 2014 | SUNDAY, OCTOBER 26 | ART CENTER COLLEGE OF DESIGN, PASADENA, CA" class="headerImage" style="float:left;"/></a><h2 style="padding-top:195px; font-size:16px; line-height:20px; clear:none !important;">SUNDAY, OCTOBER 26<br />ArtCenter COLLEGE OF DESIGN, PASADENA, CA</h2></div>
+<div class="mobileHeader"><a href="index.php"><img src="images/CC14_mobile_masthead.png" alt="STREET TO SCREEN | CAR CLASSIC 2014 " class="headerImage" /></a><h2 style="margin-top:0px; font-size:16px; line-height:20px; margin-left:5%;">SUNDAY, OCTOBER 26<br />ArtCenter COLLEGE OF DESIGN, PASADENA, CA</h2></div>
+</div>
