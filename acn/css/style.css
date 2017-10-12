@@ -1,0 +1,1265 @@
+/*
+Author: New Materials
+Author URI: http://newmaterials.la/
+*/
+
+/*---------------------------------- */
+
+/*
+ *  TABLE OF CONTENTS
+ *
+ *	@FONT-FACE
+ *
+ *	MODULAR STYLE SHEETS
+ *
+ *  GENERAL LAYOUT + SETUP
+ *
+ *  PAGE CONTENT STYLES
+ * 		
+ 		SITE HEADER
+ * 		SIDEMENU
+ * 		FACEBOOK FEED
+ * 		FLEX SLIDER MOD
+ * 		INTERIOR PAGES => CONTENT COLUMNS
+ *		FACULTY LIST
+ * 		COURSE PAGE LIST
+ * 		FAQ PAGE LIST
+ * 		PORTFOLIO LIST
+ *		COURSE SEARCH INPUT
+ *		SEARCH RESULTS PAGE
+ * 		FOOTERNAV
+ * 		PAGE FOOTER
+ * 		BOTTOM FOOTER
+ *
+ *	MEDIA QUERIES + GRID
+ *
+ *	OTHER STUFF
+ *
+ */
+
+/*---------------------------------- */
+
+
+/************************************************************************************
+MODULAR STYLESHEETS
+*************************************************************************************/
+
+@import url("navigation.css");
+@import url("gridpak.css");
+@import url("flexslider.css");
+
+
+/************************************************************************************
+GENERAL LAYOUT + SETUP
+*************************************************************************************/
+
+body {
+	font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	position: relative;
+}
+
+#wrapper {
+	max-width:96em;
+	margin: 0px auto;
+}
+
+
+#page_content {
+	max-width:96em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a {
+	text-decoration:none;
+}
+
+
+.hide {
+display:none;	
+}
+
+.accordionList li div, 
+.subAccordionList li div, 
+.subAccordionList header, 
+.accordionList header,
+.inlineAccordionList li div,
+/*SGC: Kind of a hack. VERY specific*/
+#portfoliolist.accordionList li div ul li div
+{
+	margin-left: 10px;
+}
+
+#portfoliolist .subAccordionList li, 
+#portfoliolist .subAccordionList li header,
+#portfoliolist.accordionList div,
+#portfoliolist.accordionList div p
+{
+	border-bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.inlineAccordionList {
+	margin-bottom: 15px;
+}
+
+.ui-accordion-header {
+    outline: none;
+}
+
+header:focus {
+	outline: none;
+}
+/************************************************************************************
+PAGE CONTENT STYLES: TOP TO BOTTOM LEFT TO RIGHT AFTER TOP NAV
+*************************************************************************************/
+
+
+/*---------------------------------- */
+/* SITE HEADER */
+/*---------------------------------- */
+#siteheader {
+	border-bottom: 1px solid #fff;
+	overflow: hidden;
+	margin-top: 1.5%;
+	clear: both;
+}
+
+#datewrap01 {
+	background-image: url("../images/bit.png");
+	background-position: right center;
+	background-repeat: repeat-y;
+	margin-top: 5%;
+	padding-bottom: 3%;
+	padding-right: 10%;
+}
+
+#datewrap01 {
+    color: #3c3c41;
+	font-weight:600;
+    text-align: right;
+    cursor: pointer;
+}
+
+#datewrap01 h2 {
+    font-size: 3.2em;
+}
+
+#datewrap01 a {
+    color: #42b7ff;
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight:normal;
+}
+
+#branding {
+	margin-bottom: 1.7%;
+}
+
+h1 a{
+	font-size: 4em;
+	font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	display: block;
+	background-image: url("../images/new_logo_2016.png");
+	background-repeat: no-repeat;
+	height: 2.2em;
+	width: 4.5em;
+	margin-left:auto;
+	margin-right:auto;
+	background-position: center;
+}
+
+
+.event {
+    color: #3c3c41;
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+    font-size: 1.3em;
+    /* font-weight: normal; */
+    margin-bottom: 3px;
+    margin-top: 1px;
+    text-transform: uppercase;
+}
+
+#datewrap02 {
+    color: #3c3c41;
+    text-align: left;
+    cursor: pointer;
+}
+
+#datewrap02 {
+	padding-left: 10%;
+	background-image: url("../images/bit.png");
+	background-repeat: repeat-y;
+	background-position: left;
+	padding-bottom: 3%;
+	margin-top: 5%;
+	font-weight:bold;
+}
+
+#datewrap02 h2 {
+    font-size: 3.2em;
+}
+
+#datewrap02 a {
+    color: #42b7ff;
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.new {
+	font-family:'Neue Haas Grotesk W01 Italic', Helvetica, sans-serif;
+	font-weight:normal;
+}
+
+#featured {
+	background-color: #d9f0fe;
+	cursor:pointer;
+}
+
+.rotator {
+	float: right;
+	padding-bottom: 2em;
+	overflow:hidden;
+}
+
+.loginmessage {
+	color: #fff; 
+	display: block; 
+	font-size: 1.2em; 
+	padding-top: 4%; 
+	padding-right: 1%; 
+	text-align: right;
+}
+
+/*---------------------------------- */
+/* SIDE MENU */
+/*---------------------------------- */
+
+#sidemenu {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #3c3c41;
+	margin-bottom: .9em;
+	padding-bottom: .75em;
+}
+
+#sidemenu h2, .sidemenu h2 {
+	background-color: #3c3c41;
+	/* text-decoration: underline; */
+	font-size: 1.4em;
+	color: #fff;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 15px;
+}
+
+/*--set active state for side menus on pages--*/
+#whatis #pagemenu li a.whatis,
+#publicprograms #pagemenu li a.publicprograms,
+#artcenter #pagemenu li a.artcenter,
+#donors #pagemenu li a.donors,
+#experience #pagemenu li a.experience,
+#events #pagemenu li a.events,
+#partners #pagemenu li a.partners,
+#portfolio #pagemenu li a.portfolio,
+#featuredstudents #pagemenu li a.featuredstudents,
+#featuredclass #pagemenu li a.featuredclass,
+#featuredfaculty #pagemenu li a.featuredfaculty,
+#coursedescriptions #pagemenu li a.coursedescriptions,
+#faculty #pagemenu li a.faculty,
+#calendar #pagemenu li a.calendar,
+#viewcatalog #pagemenu li a.viewcatalog,
+#accommodations #pagemenu li a.accommodations,
+#studentid #pagemenu li a.studentid,
+#parking #pagemenu li a.parking,
+#campus #pagemenu li a.campus,
+#policies #pagemenu li a.policies,
+#faq #pagemenu li a.faq,
+#support #pagemenu li a.support,
+#contactinfo #pagemenu li a.contactinfo,
+#directions #pagemenu li a.directions,
+#howto #pagemenu li a.howto,
+#resources #pagemenu li a.resources,
+#tuition #pagemenu li a.tuition,
+#scholarships #pagemenu li a.scholarships
+{
+		color: #42b7ff;
+}
+
+#pagemenu li {
+
+	margin-bottom:.7em;
+}
+
+#pagemenu li a{
+
+	text-decoration: none;
+	font-size: 1.4em;
+	color: #3c3c41;
+	font-weight: 700;
+}
+
+#featured img {
+	//height: auto;
+	height: 62%;
+	width: 100%;
+}
+
+#featured h3 {
+	font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #3c3c41;
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+#featured p {
+	text-align: center;
+	font-size: 1.3em;
+	color: #3c3c41;
+	font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	max-height:60px;
+}
+
+.featcap {
+	text-align: center;
+}
+
+.featcap a{
+	color:#fff;
+	/* text-decoration: underline; */
+}
+
+#rightcol .featcap h3 a{
+	text-decoration: none;
+}
+
+#rightcol .featcap p{
+	margin-bottom:5px;
+	text-align: center;
+}
+
+/*---------------------------------- */
+/* FACEBOOK FEED STYLES */
+/*---------------------------------- */
+
+.fblink {
+	display:block;
+	margin-top:0.5em;
+	color: #42b7ff;
+	padding-left: 15px;	
+}
+
+.fblink p a{
+	color: #42b7ff;
+}
+
+#feedwrap a {
+	text-decoration:none;
+}
+
+/*---------------------------------- */
+/* FLEXSLIDER MOD STYLES */
+/*---------------------------------- */
+
+.flex-caption {
+	background-color: rgba(252, 60, 106, .75);
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	color: #FFF;
+}
+
+.flex-caption h3 a{
+	font-size: 2em;
+	font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	display: block;
+	margin-top: 1.4%;
+	margin-left: 2%;
+	text-decoration:none;
+	color:#FFF;
+}
+
+.flex-caption p a{
+	font-size: 1.4em;
+	margin-top:1%;
+	font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	display: block;
+	margin-bottom: 1.7%;
+	margin-left: 2%;
+	text-decoration:none;
+	color:#FFF;
+}
+
+.flexslider .slides li {
+	position: relative;
+}
+
+/*---------------------------------- */
+/* INTERIOR PAGE COLUMNS */
+/*---------------------------------- */
+
+
+#centercol img {
+	/*width:100%;*/
+	/*height:auto;*/
+	margin-top:.4em;
+	margin-bottom:.4em;
+}
+
+#centercol .highlight{
+	line-height:1.4em;
+	font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	font-weight:700;
+}
+
+#centercol .ident{
+	padding-left:1.0em;
+}
+
+#centercol .italic{
+
+	font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+
+}
+
+#centercol h1{
+	/* text-decoration: underline; */
+	font-size: 2em;
+	color: #42b7ff;
+	padding-bottom:2%;
+	text-align: center;
+	display:block;
+}
+
+#centercol h2{
+	font-size: 1.4em;
+	color: #3c3c41;
+	padding-bottom:1.25%;
+	font-weight:700;
+}
+
+#centercol h3{
+	font-size: 1.5em;
+	color: #42b7ff;
+	padding-bottom:1%;
+	font-weight:700;
+}
+
+#centercol h4{
+	font-size: 1.2em;
+	color: #3c3c41;
+	padding-bottom:1%;
+	font-weight:700;
+}
+
+#centercol h5{
+	font-size: 1.2em;
+	color: #3c3c41;
+	padding-top:2%;
+	font-weight:700;
+}
+
+#centercol p, table{
+	font-size: 1.4em;
+	color: #3c3c41;
+	text-align: left;
+	margin-bottom:1em;
+	font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	line-height: 1.55em;
+	
+}
+
+#centercol a{
+	color: #3c3c41;
+	text-decoration:underline;
+}
+
+#rightcol h1{
+	font-size: 1.6em;
+	color: #42b7ff;
+	padding-bottom:5%;
+}
+
+#rightcol p{
+	font-size: 1.3em;
+	color: #3c3c41;
+	text-align: left;
+	margin-bottom:4%;
+	font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	
+}
+
+#rightcol a{
+	color: #3c3c41;
+	text-decoration:underline;
+}
+
+
+
+
+/*---------------------------------- */
+/* FACULTY LIST */
+/*---------------------------------- */
+#facultylist li ul{
+	border-top:1px solid #fff;
+//	border-bottom:1px solid #fff;
+	margin-top:.5em;
+	margin-bottom:.5em;
+	padding-top:.2em;
+	padding-bottom:.4em;
+}
+
+#facultylist li a{
+	color: #fff;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+#facultylist li ul a{
+	color: #42b7ff;
+    font-size: 1.3em;
+    line-height:1.4em;
+    /* text-decoration: underline; */
+}
+
+#facultylist li ul li {
+	margin-bottom:.4em;
+	margin-top: .4em;
+}
+
+#facultylist li ul li a.active{
+	background-color: #d9f0fe;
+	display:block;
+}
+
+#facultylist p, #courselist p {
+	margin-bottom:.35em;
+	margin-top:.35em;
+}
+
+#inlinelist p{
+//	margin-bottom:.35em;
+//	margin-top:.7em;
+}
+
+#dirlist p{
+	margin-bottom:.35em;
+	margin-top:.7em;
+}
+
+/*---------------------------------- */
+/* COURSES PAGE LIST*/
+/*---------------------------------- */
+#courselist li a{
+	color: #42b7ff;
+    font-size: 1.4em;
+    line-height:1.55em;
+    text-decoration: none;
+    background-image:url('../images/arrow_down_small.svg');
+    background-repeat:no-repeat;
+    background-position:98% center;
+}
+
+
+#courselist li ul li a.active{
+	background-color: #d9f0fe;
+	display:block;
+}
+
+#courselist li {
+	border-bottom:1px solid #3c3c41;
+	margin-bottom:.5em;
+	padding-bottom:.5em;
+}
+
+#courselist li a.active{
+	background-color: #d9f0fe;
+	display:block;
+	background-image:url('../images/arrow_up_small.svg');
+    background-repeat:no-repeat;
+    background-position:98% center;
+}
+
+#courselist li:first-child {
+	margin-top:10px;
+}
+
+#courselist li:last-child {
+	border-bottom:none;
+}
+
+#classsection li {
+	border-bottom:1px solid #fff;
+	margin-bottom:.5em;
+	padding-bottom:.5em;
+}
+
+#classsection li:last-child {
+	border-bottom:none;
+	margin-bottom:.0em;
+	padding-bottom:.3em;
+}
+
+
+#classsection li h1{
+	color: #42b7ff;
+    font-size: 1.4em;
+    padding-bottom: 0%;
+    /* text-decoration: underline; */
+    text-align:left;
+	cursor: pointer;
+}
+
+#classsection li h2{
+    color: #42b7ff;
+    font-size: 1.4em;
+    line-height:1.55em;
+    padding-bottom:0 !important;
+    text-transform:uppercase;
+	cursor: pointer;
+}
+
+.classes #rightcol {
+    margin-top: 0%;
+}
+
+/*---------------------------------- */
+/* INLINE ACCORDION PAGE LIST*/
+/*---------------------------------- */
+
+#inlinelist li {
+	border-bottom:1px solid #3c3c41;
+//	margin-bottom:.5em;
+//	padding-bottom:.5em;
+}
+
+#inlinelist li header h2.expandable{
+    border-bottom: none;
+    color: #42b7ff;
+    margin: 0.3em 0em 0.3em;
+	cursor: pointer;
+    padding-right: 2em;
+	background-image:url('../images/arrow_down_small.svg');
+    background-repeat:no-repeat;
+    background-position:98% center;
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+
+#inlinelist li header.active h2.expandable{
+	background-color: #d9f0fe;
+	display:block;
+	background-image:url('../images/arrow_up_small.svg');
+    background-repeat:no-repeat;
+    background-position:98% center;
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+
+#inlinelist li:last-child {
+	border-bottom:none;
+}
+
+#inlinelist li:first-child {
+	margin-top:0em;
+	padding-top:0em;
+}
+
+.faq #rightcol {
+    margin-top: 0%;
+}
+
+/*---------------------------------- */
+/* DIRECTION PAGE LIST*/
+/*---------------------------------- */
+
+#dirlist li {
+	border-bottom:1px solid #746e68;
+	margin-bottom:.5em;
+	padding-bottom:.5em;
+}
+
+#dirlist li a{
+	color: #42b7ff;
+    font-size: 1.4em;
+    line-height:1.6em;
+    text-decoration: none;
+    padding-right: 2em;
+    background-image:url('../images/arrow_down_small.svg');
+    background-repeat:no-repeat;
+    background-position:98% center;
+}
+
+#dirlist li a.active{
+	background-color: #d9f0fe;
+	display:block;
+	background-image:url('../images/arrow_up_small.svg');
+    background-repeat:no-repeat;
+    background-position:98% center;
+}
+
+#dirlist li:last-child {
+	border-bottom:none;
+}
+
+#dirlist li:first-child {
+	margin-top:0em;
+	padding-top:0em;
+}
+
+/*---------------------------------- */
+/* PORTFOLIO PAGE LIST*/
+/*---------------------------------- */
+
+#portfoliolist li {
+	border-bottom:1px solid #3c3c41;
+	margin-bottom:.1em;
+	padding-bottom:.1em;
+}
+#portfoliosublist li {
+	margin-bottom:.1em;
+	padding-bottom:.1em;
+	border-bottom:none;
+}
+#portfoliolist li a{
+	color: #42b7ff;
+    font-size: 1.4em;
+    line-height:1.55em;
+    text-decoration: none;
+    background-image:url('../images/arrow_down_small.svg');
+    background-repeat:no-repeat;
+    background-position:98% center;
+}
+
+#portfoliolist li a.active{
+	background-color: #d9f0fe;
+	display:block;
+	background-image:url('../images/arrow_up_small.svg');
+    background-repeat:no-repeat;
+    background-position:98% center;
+}
+
+#portfoliolist li:last-child {
+	border-bottom:none;
+}
+
+#portfoliolist li:first-child {
+	margin-top:0em;
+	padding-top:0em;
+}
+
+#portfoliolist p {
+    color: #3c3c41;
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+    font-size: 1.4em;
+    line-height: 1.55em;
+    margin-bottom: 3%;
+    text-align: left;
+}
+
+#portfoliolist p strong {
+    color: #3c3c41;
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	font-weight: 700;
+}
+
+/*---------------------------------- */
+/* COURSE SEARCH */
+/*---------------------------------- */
+
+.classes form input, .search form label p {
+ outline:none;
+}
+
+.classes form input, .search form input {
+    font-family:'Neue Haas Grotesk W01 Bold', Helvetica, sans-serif;
+    font-size:  1.4em;
+    color: #42b7ff;
+    padding: 4px 7px 3px 7px;
+    border: 1px solid #fff;
+    margin-right: .8em;
+}
+
+.keyword {
+	cursor:pointer;
+}
+
+.category, .keyword {
+     font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+     font-size:  1.4em;
+     color: #FFF !important;
+     background: #fff;
+     padding: 3px 3px 3px 3px;
+     border: 0px !important;
+}
+
+.classes form label p, .search form label p {
+width: 112px;
+display:inline-block; 
+margin-right:.5em;
+}
+
+/*---------------------------------- */
+/* SEARCH RESULTS PAGE */
+/*---------------------------------- */
+
+.search #sidemenu{
+	border-bottom:0px;
+}
+
+
+
+
+/*---------------------------------- */
+/* FOOTER NAV */
+/*---------------------------------- */
+
+.navtab {
+	height: 7.5em;
+	background-color: #d9f0fe;
+	/* margin-bottom:.5%; */
+	padding-top: 2%;
+	padding-bottom: 2%;
+	cursor:pointer;
+}
+
+.navtab h3 a {
+	font-size: 1.3em;
+	color: #42b7ff;
+	/* text-decoration: underline; */
+	text-transform: uppercase;
+	margin-bottom: 0em;
+	padding-top: 0.25em;
+	display:block;
+	font-weight:700;
+}
+.navtab p {
+	font-size: 1.3em;
+	font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	font-weight: normal;
+	color: #3c3c41;
+	line-height: 1em;
+}
+
+.courses {
+	height: 7.5em;
+	width: 7.5em;
+	background-image: url("../images/courses.svg");
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	float:left;
+	margin-left: 6%; 
+	margin-right: 6%;
+}
+
+.catalog {
+	height: 7.5em;
+	width: 7.5em;
+	background-image: url("../images/catalog.svg");
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin-left: 6%; 
+	float:left;
+	margin-right: 6%;
+}
+
+.register {
+	height: 7.5em;
+	width: 7.5em;
+	background-image: url("../images/register.svg");
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin-left: 6%; 
+	float:left;
+	margin-right: 6%;
+}
+
+.gallery {
+	height: 7.5em;
+	width: 7.5em;
+	background-image: url("../images/gallery.svg");
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin-left: 6%; 
+	float:left;
+	margin-right: 6%;
+}
+
+.map {
+	height: 7.5em;
+	width: 7.5em;
+	background-image: url("../images/map.svg");
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin-left: 6%;
+	float:left;
+	margin-right: 6%;
+}
+
+.contact {
+	height: 7.5em;
+	width: 7.5em;
+	background-image: url("../images/contact.svg");
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin-left: 6%;
+	float:left;
+	margin-right: 6%;
+}
+
+.lastnav {
+		background-image: none;
+}
+
+
+.pagefooter {
+	/* background-color: #3c3c41; */
+	clear: both;
+	left: 0px;
+	bottom: 0px;
+}
+
+#siteheader, .main_content {
+	margin-bottom:1%;	
+	overflow:hidden;	
+}
+
+#siteheader {
+	border-bottom:solid 1px #3c3c41;
+}
+
+#facebookfeed h2 {
+	background-color: #3c3c41;
+	/* text-decoration: underline; */
+	font-size: 1.4em;
+	color: #fff;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 15px;
+}
+
+#featured h2 {
+	background-color: #d9f0fe;
+	/* text-decoration: underline; */
+	font-size: 1.3em;
+	color: #42b7ff;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 15px;
+	font-weight: 700;
+}
+
+
+/************************************************************************************
+PAGEFOOTER
+*************************************************************************************/
+
+.pagefootercontent .blurb p {
+	font-size: 1.2em;
+	color: #fff;
+	line-height: 1.4em;
+}
+.pagefootercontent .blurb {
+	padding-top: 2.2%;
+	padding-left: 12px;
+	float: left;
+}
+
+.pagefootercontent .blurb p a {
+	color: #42b7ff;
+}
+
+.footernavlist{
+	width:50%;
+	float:right;
+}
+
+#aboutus{
+	float:left;
+	margin-right:7%;
+}
+
+#explore {
+	float:left;
+	margin-right:7%;
+}
+
+#connect {
+	float:left;
+	margin-right:7%;
+}
+
+#contactus{
+	float:left;
+}
+
+
+.evaluationkit {
+	height: 7.5em;
+	width: 7.5em;
+	background-image: url("../images/EvaluationKIT_Icon_Grey2.png");
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin-left: 6%; 
+	float:left;
+	margin-right: 6%;
+}
+
+.evaluationkitapp
+{
+	height: 7.5em;
+	width: 7.5em;
+	background-image: url("../images/EvaluationKIT_Instructions_Icon3.png");
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin-left: 6%; 
+	float:left;
+	margin-right: 6%;
+}
+
+.pagefootercontent .evalkitnavlist{
+	width:20%;
+	float:left;
+	margin-left:20%
+}
+
+.pagefootercontent #evalkiticon
+{
+	float:left;
+	padding-top:5%
+}
+
+.pagefootercontent #evalkit
+{
+	float:left;
+	padding-top: 2.2%;
+	width:15%;
+}
+
+.pagefootercontent .evalkit h3{
+	color: #42b7ff;
+	text-decoration: none;
+	font-size: 1.4em;
+	display:block;
+	margin-top:1.35em;
+	margin-bottom:.7em;
+}
+
+.pagefootercontent #evalkit ul li, .pagefootercontent #evalkit ul li a{
+	color: #42b7ff;
+	font-size: 1.2em;
+	/* text-decoration: underline; */
+	line-height: 1.4em;
+	margin-bottom: 1.5em;
+}
+
+.evalkiticon {
+	height: 3.0em;
+	width: 3.0em;
+	background-image: url("../images/EvaluationKIT_Icon_Grey2.png");
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-position: right center;
+	margin-left: 5%; 
+	margin-top: 3%;
+	float:left;
+	margin-right: 1.5%;
+}	
+
+.footernavlist h4{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.4em;
+	display:block;
+	margin-top:1.35em;
+	margin-bottom:.7em;
+}
+
+.footernavlist ul li, .footernavlist ul li a{
+	color: #fff;
+	font-size: 1.1em;
+	text-decoration: none;
+	line-height: 1.3em;
+	font-weight:100;
+}
+
+.address {
+	font-family:'Neue Haas Grotesk W01 Bold', Helvetica, sans-serif;
+	margin-top:1em;
+	color: #fff;
+	font-size: 1.1em;
+	text-decoration: none;
+	line-height: 1.3em;
+}
+
+/**********************************************************************
+BOTTOM FOOTER STYLES
+***********************************************************************/
+.accdlogo{
+	float:left;
+	width:169px;
+	height:13px;
+	background-image:url('../images/accd_logo.svg');
+}
+.copyright {
+	float: right;
+	display:block;
+}
+
+.credits a {
+	color: #3c3c41;
+	text-decoration: none;
+	margin-left: 8px;
+}
+
+/**********************************************************************
+OTHER STUFF
+***********************************************************************/
+.mblsubmitform, .submitform {
+
+display:none !important;
+
+}
+
+#gallerywrap h1 {
+
+	/* text-decoration: underline; */
+	font-size: 2em;
+	color: #42b7ff;
+	padding-bottom:2%;
+	text-align: center;
+	display:block;
+
+}
+
+.accordionList a, .subAccordionList header {
+	display: block;
+	/*width: 100%;*/
+}
+
+/*---------------------------------- */
+/* CALENDAR RIGHT COLUMN */
+/*---------------------------------- */
+
+#rightcol #sidemenu {
+border-bottom:0px !important;
+}
+
+.featuredate{
+	border-bottom:1px solid #3c3c41;
+}
+
+.featuredate h3{
+	color: #3c3c41;
+    font-size: 3.2em;
+    margin:.2em 0em 0em;
+	padding-left: 15px;
+	font-weight:700;
+}
+
+#rightcol .featuredate .event {
+    color: #3c3c41;
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-bottom: 3px;
+    margin-top: 1px;
+	display:block;    
+	text-transform: uppercase;
+    text-decoration:none;
+	font-weight:700;
+}
+
+#rightcol .featuredate p{
+	color: #42b7ff;
+	font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	margin-top:.5em;
+	margin-bottom:,5em;
+	line-height:1;
+	padding-left: 15px;
+}
+
+.calheader {
+    color: #fff;
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    padding-bottom: 0% !important;
+    margin-top: 1px;
+	display:block;    
+	text-transform: uppercase;
+    text-decoration:none;
+}
+
+.calinfo {
+	color: #42b7ff !important;
+}
+
+.searchresult {
+	border-bottom: 1px solid #fff;
+	margin-bottom: 1em;
+}
+
+.classtitle {
+text-decoration:underline;
+margin-bottom:7px !important;
+margin-top:7px !important;
+}
+
+#centercol header h2.expandable {
+    border-bottom: 1px solid #fff;;
+//    border-top: 1px solid #fff;
+    color: #42b7ff;
+    margin: 10px 0;
+//    padding: 6px 0;
+	cursor: pointer;
+	background-image:url('../images/arrow_down_small.svg');
+    background-repeat:no-repeat;
+    background-position:98% center;
+}
+
+#centercol header.active h2.expandable {
+    background-image:url('../images/arrow_up_small.svg');
+    background-repeat:no-repeat;
+    background-position:98% center;
+}
+
+#rightcol h3.download {
+    border-bottom: 1px solid #3c3c41;;
+//    border-top: 1px solid #fff;
+    color: #42b7ff;
+//    margin: 10px 0;
+    padding: 6px 0;
+    background-image:url('../images/arrow_right_small.svg');
+    background-repeat:no-repeat;
+    background-position:98% center;
+}
+
+
+#rightcol h3.download a{
+	text-decoration:none;
+}
+
+

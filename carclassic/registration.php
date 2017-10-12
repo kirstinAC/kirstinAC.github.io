@@ -25,6 +25,7 @@
         
       <div class="mainContent">
         <h2 style="margin-top:0px;">REGISTRATION</h2>
+        <p>Purchase your discounted tickets today. Online registration closes at <strong>5 p.m. on Friday, October 13</strong>. Tickets can be bought on site at the regular rate of $40.00.</p>
         <p>Attendees of Car Classic 2017 will take part in a concours event unlike any other. Highlights include: a curated field of inspired vehicles; emcees Dave Kunz, Barry Meguiar and Ed Justice Jr.; interviews with transportation designers and car collectors; and tours of ArtCenter's landmark campus facilities.        </p>
         <h3><a href="https://engage.artcenter.edu/car-classic-2017"  target=newwindow>Registration - General Admission, Alumni and Patrons</a></h3>
 <h3><a href="https://engage.artcenter.edu/car-classic-2017-faculty/staff" target=newwindow>Registration - Students, Faculty and Staff</a></h3>

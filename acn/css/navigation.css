@@ -1,0 +1,558 @@
+/*
+Author: New Materials
+Author URI: http://newmaterials.la/
+*/
+
+/*---------------------------------- */
+
+/*
+ *  TABLE OF CONTENTS:
+ *
+ *  DRAWER/DROPDOWN 
+ *      LOGIN FORM
+ *
+ *  TOP NAVIGATION
+ *      SOCIAL LINKS
+ *      MAIN NAV
+ *      LOGIN LINK
+ *      SEARCH FORM
+ *
+ *  MOBILE NAV
+ *
+ */
+
+/************************************************************************************
+DRAWER/DROPDOWN
+*************************************************************************************/
+
+#drawerwrap {
+    background-color: #cdeffe;
+    height:0px;
+    width:100%;
+    overflow:hidden;
+}
+
+#drawer {
+    max-width: 960px;
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#drawerclose {
+    position:absolute;
+    top:1.5em;
+    right:0;
+    display:block;
+    width:20px;
+    height:20px;
+    cursor: pointer;
+    background-image: url(../images/icon_closer.svg);
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+    background-position: top right;
+}
+
+#drawer .fb, #drawer .twit, #drawer .login {
+display:none;
+}
+
+#drawer li{
+    padding:1.5em 0px;
+    height:auto;
+    overflow:hidden;
+}
+
+#drawer h2 a{
+    font-size: 1.7em;
+    text-decoration: underline;
+    color: #00afff;
+    margin-bottom:.8em;
+    display:inline-block;
+    cursor:default;
+}
+
+#drawer li p{
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+    font-size: 1.4em;
+    color: #00afff;
+}
+
+#drawer li p a{
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	font-weight: bold;
+    text-decoration:none;
+    color: #00afff;
+}
+
+/*---------------------------------- */
+/* LOGIN */
+/*---------------------------------- */
+
+#drawer input {
+ outline:none;
+}
+
+#drawer form{
+float:right;
+width:100%;
+}
+
+#drawer div.support p, #drawer div.registration p{
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+    font-size: 1.2em;
+    color:#746e68;
+    line-height: 1.2em;
+}
+
+#drawer input.submit {
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	font-weight: bold;
+    background: #746e68;
+    font-size:  1.3em;
+    color: #fff;
+    padding: 5px 8px 4px 8px;
+    border: 1px solid #746e68;
+	cursor:pointer;
+}
+
+.logininfo{
+    float: left;
+    width:50%;
+    overflow:hidden;
+}
+
+.support, .registration{
+    float:left;
+    /* width:50%; */
+}
+
+.support h3, .registration h3 {
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom:.2em;
+    color:#746e68;
+}
+
+.loginform {
+    float:left;
+    width:50%;
+    overflow: hidden;
+    text-align:right;
+}
+
+.user, .password {
+     font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+     font-size:  1.4em;
+     border: 1px solid #746e68;
+     padding: 4px 4px 4px 4px;
+     margin-right: .8em;
+     width:37%;
+}
+
+/************************************************************************************
+TOP NAVIGATION 
+*************************************************************************************/
+
+#topnav {
+	background-color: #00afff;
+	height: 3.8em;
+}
+
+
+#mblnav {
+    display: none;
+}
+
+
+.mainnav {
+    max-width: 96em;
+    height: 37px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+#navlist li {
+    display: inline;
+    margin-right: 3%;
+    position: relative;
+}
+
+#navlist li.last {
+    margin-right: 0em;
+}
+
+#navlist li a {
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+    font-size: 1.4em;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+
+#navlist ul li a{
+    font-family:'Neue Haas Grotesk W01', Helvetica, sans-serif;
+	font-weight: Bold;
+    font-size: 1.42em;
+    color: #746e68;
+    text-decoration: none;
+    display: block;
+    line-height: 2em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #00afff;
+    font-weight: 500;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#navlist ul li a:hover{
+    color: #00afff;
+}
+
+#navlist ul {
+    display:none;
+    position:absolute;
+    left:0px;
+    margin-top:.1em;
+    text-align:left;
+    background-color: #cdeffe;
+    width: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom:.4em;
+    z-index:1000;
+}
+
+#loginsearch a.loginlink {
+    font-size: 1.4em;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #FFF;
+    padding-right: 0.5em;
+    margin-right: 1.8em;
+}
+
+#loginsearch a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#social a {
+    color: #FFF;
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+#navlist ul li{
+    display:block;
+    white-space: nowrap;
+    width: auto;
+    margin-right: 0px;
+}
+
+#navlist ul li a.last{
+    border-bottom: 0px;
+}
+
+#navlist li:hover ul {
+    display:block;
+}
+
+#social {
+    float:left;
+    width:14%;
+    margin-top:0.95em;
+}
+
+#social a .fblink {
+    display:block;
+    margin-right:1%;
+}
+
+#loginsearch {
+    float:right;
+    width:15%;
+    text-align:right;
+    margin-top:1em;
+}
+
+#navlist ul {
+    display:none;   
+}
+
+#mblnav {
+    display: none;
+    font-size: 3em;
+    color: #FFF;
+}
+
+/*---------------------------------- */
+/* SOCIAL LINKS */
+/*---------------------------------- */
+
+#sociallinks {
+    width: 15%;
+    float:left;
+    padding-top: .1em;
+}
+
+#sociallinks a {
+    display: block;
+    height:2.6em;
+    float: left;
+    margin-top: 1em;
+}
+
+#fblink {
+    width: 2em;
+    background-image: url(../images/icon_facebook.svg);
+    background-repeat: no-repeat;
+    background-size: 45% auto;
+}
+
+#twitlink {
+    width: 3em;
+    background-image: url(../images/icon_twitter.svg);
+    background-repeat: no-repeat;
+    background-size: 73% auto;
+}
+
+/*---------------------------------- */
+/* MAIN NAV */
+/*---------------------------------- */
+
+#mainnav{
+    max-width: 96em;
+    margin: 0em auto;
+    clear:both;
+    position: relative;
+    /*width: 90%;*/
+}
+
+#navlist {
+    width: 70%;
+    float: left;
+    text-align: center;
+    margin-top: .5em;
+}
+
+#navlist li {
+    display: inline-block;
+    margin-right: 3.2%;
+}
+
+#navlist li:last-child {
+    margin-right: 0%;
+}
+
+#navlist li a {
+    font-size: 1.4em;
+    color: #FFF;
+    text-decoration: none;
+    padding-bottom: .72em;
+    padding-top: .60em;
+}
+
+.needlink {
+    /*Manually setting a width to enforce no line breaks on iOS 4*/
+   width: 99px;
+}
+
+.myAccount {
+    /*Manually setting a width to enforce no line breaks on iOS 4*/
+    width: 76px;
+}
+
+/*---------------------------------- */
+/* LOGIN LINK*/
+/*---------------------------------- */
+
+#login {
+    width:15%;
+    float: left;
+    text-align:right;
+    margin-top: 1.1em;
+    overflow: hidden;
+}
+
+#login a {
+    font-size: 1.4em;
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: .8em;
+    padding-top:.17em;
+    padding-bottom:.1em;
+    border-right: .1em solid #FFF;
+    margin-right:1.8em;
+}
+
+/*---------------------------------- */
+/* SEARCH */
+/*---------------------------------- */
+
+/* reset webkit search input browser style */
+
+#mainnav .mblhide input {
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:0;
+    padding:0;
+    display: inline;
+    margin-top: .3em;
+}
+
+#mainnav .mblhide input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+#mainnav .mblhide input::-webkit-search-decoration,
+#mainnav .mblhide input::-webkit-search-cancel-button {
+    display: none; /* remove the search and cancel icon */
+}
+
+/* search input field */
+#mainnav .mblhide input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 1.6em;
+    background-color: #00afff;
+    background-image: url(../images/search.svg);
+    background-repeat: no-repeat;
+    background-position: .4em .45em;
+    width: 1em;
+    color: transparent;
+    cursor: pointer;
+    padding:.2em;
+    -webkit-transition: width .5s;
+    -moz-transition: width .5s;
+    transition: width .5s;
+    
+}
+
+#mainnav .mblhide input[type=search] {
+    width: 20px;
+    padding-left: 11px;
+    color: transparent;
+    cursor: pointer;
+}
+#mainnav .mblhide input[type=search]:hover {
+    /*background-color: #fff;*/
+}
+#mainnav .mblhide input[type=search]:focus {
+    width: 930px;
+    /*width: 100%;*/
+    max-width: 98%;
+    padding-left: 32px;
+    color: #fff;
+    background-color: #00afff;
+    cursor: auto;
+}
+
+#mainnav .mblhide input:-moz-placeholder {
+    color: #FFF;
+}
+#mainnav .mblhide input::-webkit-input-placeholder {
+    color: #FFF;
+}
+
+/************************************************************************************
+MOBILE NAV
+*************************************************************************************/
+@media screen and (max-width: 767px) {
+
+    /* nav-wrap */
+    #nav-wrap {
+        position: relative;
+    }
+
+    /* menu icon */
+    #mblnav {
+        height:1.2em;
+        width:2em;
+        margin-top: .19em;
+        margin-right: .5em;
+        cursor: pointer;
+        display: block; /* show menu icon */
+        float:right;
+        border:1px solid #746e68;
+        background-image:url('../images/mblnav_bg.svg');
+        background-repeat: no-repeat;
+        background-size: 80% auto;
+        background-position: center .07em;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        -moz-box-shadow:inset 1px -1px 5px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow:inset 1px -1px 5px rgba(0, 0, 0, 0.2);
+        box-shadow:inset 1px -1px 5px rgba(0, 0, 0, 0.2);
+
+
+    }
+    
+    /* main nav */
+    #navlist {
+        clear: both;
+        position: absolute;
+        top: 5em;
+        width: 100%;
+        display: none; /* visibility will be toggled with jquery */
+        text-align:left;
+        background-color: #cdeffe;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    
+    #navlist li a{
+        font-family:'Neue Haas Grotesk W01 Bold', Helvetica, sans-serif;
+		font-weight: normal;
+        font-size: 1.4em;
+        color: #00afff;
+        text-decoration: none;
+        display: block;
+        line-height: 2em;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #746e68;
+        font-weight: normal;
+    }
+
+    #navlist li {
+        clear: both;
+        display: block;
+    }
+    
+    #social, #loginsearch{
+        display:none;
+    }
+    
+    #navlist ul {
+        display:none;   
+    }
+    
+    #navlist li:hover ul {
+        display:none;
+    }
+
+}/* end mobile nav media query*/
+
+@media screen and (min-width: 768px) {
+
+    /* ensure nav is visible on desktop version */
+    #navlist {
+        display: block !important;
+    }
+
+}
+
+

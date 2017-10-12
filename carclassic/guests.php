@@ -28,12 +28,15 @@
         <hr />
         <h3><strong>EMCEES</strong><strong> </strong></h3>
         <p><strong>Ed Justice Jr.,&nbsp;</strong>President and CEO, Justice Brothers, Inc. and co-host,&nbsp;<em>Motor Trend Radio</em><br>
-  <strong>Dave Kunz,&nbsp;</strong>Automotive Reporter, KABC-TV Channel 7 Los Angeles<br>
-  <strong>Barry J. Meguiar,&nbsp;</strong>President and CEO, Meguiar&rsquo;s, Inc. and host,&nbsp;<em>Car Crazy Radio</em></p>
-        <h3><b>Guest Speakers</b>          </h3>
-       <strong>Jason Castriota</strong>          <br>
-        <b>Miguel Galluzzi</b> (BS 86)          <br>
-        <p><strong>Sasha Selipanov</strong></p>
+            <strong>Dave Kunz,&nbsp;</strong>Automotive Reporter, KABC-TV Channel 7 Los Angeles<br>
+            <strong>Barry J. Meguiar,&nbsp;</strong>President and CEO, Meguiar&rsquo;s, Inc. and host,&nbsp;<em>Car Crazy Radio</em></p>
+        
+        <h3><strong>Guest Speakers</strong></h3>
+        <p><strong>Sasha Selipanov</strong> &ndash; Currently Head of Advanced Design for Genesis and previously responsible for exterior design of the Bugatti Vision Gran Turismo show car and Bugatti Chiron.</p>
+        <p><strong>Jason Castriota</strong> &ndash; Currently Chief Designer for cars at Ford and previously responsible for the Ferrari 599 GTB Fiorano, Maserati GranTurismo, Maserati Birdcage 75th and one-off Ferrari P 4/5.</p>
+        <p><strong>Miguel Galluzzi</strong> (BS 86) &ndash; Currently head of Piaggio’s Advanced Design Center and previously responsible for the Ducati 900SS Monster, Aprilia Dorsoduro, RSV4, Tuono, Moto Guzzi V7 Racer and California 1400.</p>
+        <p><strong>Tom Peters</strong> (BS 80) &ndash; Currently Director of Exterior Design for General Motors and previously responsible for the C6 and C7 (Stingray) Corvette and 5th generation Camaro.</p>
+        
         <h3><strong>JUDGES (2016)</strong></h3>
         <p><strong>Kevin Beard</strong> (BS 92)<br>
           <strong>Dennis Campbell</strong><br>
@@ -58,7 +61,7 @@
           <strong>Franz von Holzhausen</strong> (BS 92)<br>
           <strong>Jonathan Ward</strong><br>
           <strong>Geoff Wardle</strong><br>
-        <strong>Jose Wyzsogrod</strong> (BS 96)      </p>
+          <strong>Jose Wyzsogrod</strong> (BS 96)</p>
         
         <h3><strong>Advisory committee</strong></h3>
         <p><strong>Leslie Kendall</strong><br>

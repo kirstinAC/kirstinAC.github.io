@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="com.clientviews.pagecontrol.TermCalendar" table="V_TERM">
+        <id name="key" column="TERM_ID">
+            <generator class="native"/>
+        </id>
+
+	    <property name="desc" column="TERM_DESC"/>
+	    <property name="beginDate" column="TERM_BEGIN_DT"/>
+	    <property name="endDate" column="TERM_END_DT"/>
+	    <property name="registrationBeginDate" column="REGISTRATION_BEGIN_DT"/>
+	    <property name="isPub" column="IS_PUBP_TERM"/>
+	    
+	    
+    </class>
+    
+</hibernate-mapping>

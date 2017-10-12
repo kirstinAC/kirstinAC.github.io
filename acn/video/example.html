@@ -1,0 +1,832 @@
+<!doctype html>
+<html xml:lang="en-gb" lang="en-gb" >
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	      <base href="http://conquatheme.com/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Marcin" />
+  <meta name="generator" content="Joomla! - Open Source Content Management  - Version 3.0.3" />
+  <title>HTML5 video player</title>
+  <link href="http://conquatheme.com/index.php/blog" rel="canonical" />
+  <link href="http://conquatheme.com/index.php/blog/media/item/html5-video-player" rel="canonical" />
+  <link rel="stylesheet" href="/media/zoo/assets/css/reset.css?ver=20130303" type="text/css" />
+  <link rel="stylesheet" href="/media/zoo/applications/blog/templates/expo/assets/css/zoo.css?ver=20130303" type="text/css" />
+  <link rel="stylesheet" href="/media/zoo/elements/rating/assets/css/rating.css?ver=20130303" type="text/css" />
+  <link rel="stylesheet" href="/media/zoo/elements/download/assets/css/download.css?ver=20130303" type="text/css" />
+  <link rel="stylesheet" href="/media/zoo/assets/css/comments.css?ver=20130303" type="text/css" />
+  <link rel="stylesheet" href="/templates/conquanew/css-compiled/menu-5ce4ccce59facfb207af0332a40b93bd.css" type="text/css" />
+  <link rel="stylesheet" href="/libraries/gantry/css/grid-responsive.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/conquanew/css-compiled/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/conquanew/css-compiled/master-7d3017cf7b30432fec1516b3448ce783.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/conquanew/css/videojs.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/conquanew/css-compiled/mediaqueries.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/conquanew/css-compiled/rokbox-light.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/conquanew/css-compiled/shCore.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/conquanew/css-compiled/shCoreRDark.css" type="text/css" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Carme" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_zoocategory/tmpl/flatlist/style.css?ver=20130303" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_visitorcounter/mod_visitorcounter.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_rokajaxsearch/css/rokajaxsearch.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_rokajaxsearch/themes/dark/rokajaxsearch-theme.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/conquanew/roksprocket/layouts/lists/themes/default/lists.css" type="text/css" />
+  <style type="text/css">
+body {font-family:IstokWeb, Helvetica, Arial, sans-serif}
+body h2, body h1 {font-family: Carme, Helvetica, Arial, sans-serif}
+#rt-sidebar-a, #rt-sidebar-b, #rt-sidebar-c {font-family:Arimo, Helvetica, Arial, sans-serif}
+#rt-sidebar-a h1, #rt-sidebar-a h2, #rt-sidebar-b h1, #rt-sidebar-b h2, #rt-sidebar-c h1, #rt-sidebar-c h2 { font-family: 'ArchitectsDaughter', 'Helvetica', arial, serif; }
+a, ul.menu li .separator, #yoo-zoo .items h1.pos-title a  {color:#2682de;}a:hover, ul.menu li .separator:hover, #yoo-zoo .items h1.pos-title a:hover  {color:#ed8a00;text-decoration: none !important}.button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button, .btn-primary, .yoo-zoo input[type="submit"] {border-color:#033d8e;}.button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button, .btn-primary, .yoo-zoo input[type="submit"]  {background-color: #1173fa; background: linear-gradient(top, rgba(17,115,250,1) 0%, rgba(4,85,197,1) 100%); background: -moz-linear-gradient(top, rgba(17,115,250,1) 0%, rgba(4,85,197,1) 100%);}
+.button:hover, .readon:hover, .readmore:hover, button.validate:hover, #member-profile a:hover, #member-registration a:hover, .formelm-buttons button:hover, .btn-primary:hover, .yoo-zoo input[type="submit"]:hover  {background-color: #2f84fb; background: linear-gradient(top, rgba(47,132,251,1) 0%, rgba(5,98,227,1) 100%); background: -moz-linear-gradient(top, rgba(47,132,251,1) 0%, rgba(5,98,227,1) 100%);}
+.button:active, .readon:active, .readmore:active, button.validate:active, #member-profile a:active, #member-registration a:active, .formelm-buttons button:active, .btn-primary:active {background-color: #0564e8; background: linear-gradient(top, rgba(5,100,232,1) 0%, rgba(37,126,251,1) 100%); background: -moz-linear-gradient(top, rgba(5,100,232,1) 0%, rgba(37,126,251,1) 100%);}
+#rt-logo {background: url(/images/logoconqua2.png) 50% 0 no-repeat !important;}
+#rt-logo {width: 278px;height: 72px;}
+
+h1, h2 { font-family: 'Carme', 'Helvetica', arial, serif; }
+  </style>
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/zoo/assets/js/responsive.js?ver=20130303" type="text/javascript"></script>
+  <script src="/components/com_zoo/assets/js/default.js?ver=20130303" type="text/javascript"></script>
+  <script src="/media/zoo/elements/rating/assets/js/rating.js?ver=20130303" type="text/javascript"></script>
+  <script src="/media/zoo/libraries/jquery/plugins/cookie/jquery.cookie.js?ver=20130303" type="text/javascript"></script>
+  <script src="/media/zoo/assets/js/comment.js?ver=20130303" type="text/javascript"></script>
+  <script src="/media/zoo/assets/js/placeholder.js?ver=20130303" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="http://api.recaptcha.net/js/recaptcha_ajax.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/templates/conquanew/js/rokbox.js" type="text/javascript"></script>
+  <script src="/templates/conquanew/js/rokbox-config-light.js" type="text/javascript"></script>
+  <script src="/templates/conquanew/js/SH/shCore.js" type="text/javascript"></script>
+  <script src="/templates/conquanew/js/SH/shBrushPhp.js" type="text/javascript"></script>
+  <script src="/templates/conquanew/js/SH/shBrushCss.js" type="text/javascript"></script>
+  <script src="/templates/conquanew/js/SH/shBrushXml.js" type="text/javascript"></script>
+  <script src="/templates/conquanew/js/SH/shBrushJScript.js" type="text/javascript"></script>
+  <script src="/templates/conquanew/js/html5player/video.js" type="text/javascript"></script>
+  <script src="/templates/conquanew/js/html5player/html5.js" type="text/javascript"></script>
+  <script src="/templates/conquanew/js/html5player/youtube.js" type="text/javascript"></script>
+  <script src="/templates/conquanew/js/html5player/vimeo.js" type="text/javascript"></script>
+  <script src="/libraries/gantry/js/browser-engines.js" type="text/javascript"></script>
+  <script src="/templates/conquanew/js/rokmediaqueries.js" type="text/javascript"></script>
+  <script src="/modules/mod_roknavmenu/themes/default/js/rokmediaqueries.js" type="text/javascript"></script>
+  <script src="/modules/mod_roknavmenu/themes/default/js/responsive.js" type="text/javascript"></script>
+  <script src="/modules/mod_rokajaxsearch/js/rokajaxsearch.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/assets/js/mootools-mobile.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/assets/js/rokmediaqueries.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/assets/js/roksprocket.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/assets/js/roksprocket.request.js" type="text/javascript"></script>
+  <script src="/templates/conquanew/roksprocket/layouts/lists/themes/default/lists.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('domready', function()
+		{
+			Recaptcha.create("6Lfa790SAAAAAHYBsUd5Zlji7G2PClh8IJqJ24xJ", "dynamic_recaptcha_1", {theme: "red",lang : 'en',tabindex: 0});});
+
+jQuery(document).ready(function() {
+			jQuery.firefly({
+				images : ['http://www.itsfirefly.com/images/fly1by1.png','http://www.itsfirefly.com/images/fly2by2.png'], 	//Fly images
+				total : 65, //number of flies
+				on: '#header' //id of div
+			});
+		});
+
+ var rokboxPath = '/templates/conquanew/js/';
+
+SyntaxHighlighter.all();
+
+
+function keepAlive() {	var myAjax = new Request({method: "get", url: "index.php"}).send();} window.addEvent("domready", function(){ keepAlive.periodical(3600000); });
+window.addEvent((window.webkit) ? 'load' : 'domready', function() {
+				window.rokajaxsearch = new RokAjaxSearch({
+					'results': 'Results',
+					'close': '',
+					'websearch': 0,
+					'blogsearch': 0,
+					'imagesearch': 0,
+					'videosearch': 0,
+					'imagesize': 'MEDIUM',
+					'safesearch': 'MODERATE',
+					'search': 'Search...',
+					'readmore': 'Read more...',
+					'noresults': 'No results',
+					'advsearch': 'Advanced search',
+					'page': 'Page',
+					'page_of': 'of',
+					'searchlink': 'http://conquatheme.com/index.php?option=com_search&amp;view=search&amp;tmpl=component',
+					'advsearchlink': 'http://conquatheme.com/index.php?option=com_search&amp;view=search',
+					'uribase': 'http://conquatheme.com/',
+					'limit': '10',
+					'perpage': '5',
+					'ordering': 'newest',
+					'phrase': 'any',
+					'hidedivs': '',
+					'includelink': 1,
+					'viewall': 'View all results',
+					'estimated': 'estimated',
+					'showestimated': 1,
+					'showpagination': 1,
+					'showcategory': 1,
+					'showreadmore': 1,
+					'showdescription': 1
+				});
+			});
+if (typeof RokSprocket == 'undefined') RokSprocket = {};
+Object.merge(RokSprocket, {
+	SiteURL: 'http://conquatheme.com/',
+	CurrentURL: 'http://conquatheme.com/',
+	AjaxURL: 'http://conquatheme.com/index.php?option=com_roksprocket&amp;task=ajax&amp;format=raw&amp;ItemId=117'
+});
+
+window.addEvent('domready', function(){
+		RokSprocket.instances.lists = new RokSprocket.Lists();
+});
+
+window.addEvent('domready', function(){
+	RokSprocket.instances.lists.attach(95, '{"accordion":"0","autoplay":"0","delay":"5"}');
+});
+
+  </script>
+</head>
+<body  class="logo-type-custom headerstyle-dark font-size-is-default menu-type-dropdownmenu layout-mode-responsive col12">
+        <header id="rt-top-surround">
+				<div id="rt-top" >
+			<div class="rt-container">
+				<div class="rt-grid-5 rt-alpha">
+            <div class="rt-block logo-block">
+            <a href="/" id="rt-logo"></a>
+        </div>
+
+</div>
+<div class="rt-grid-4">
+        <div class="date-block">
+        <span class="date">Wednesday, June 12, 2013</span>
+    </div>
+
+</div>
+<div class="rt-grid-3 rt-omega">
+               <div class="rt-block ajaxsearch">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		<form name="rokajaxsearch" id="rokajaxsearch" class="dark" action="http://conquatheme.com/" method="get">
+<div class="rokajaxsearch ajaxsearch">
+	<div class="roksearch-wrapper">
+		<input id="roksearch_search_str" name="searchword" type="text" class="inputbox" value="Search..." />
+	</div>
+	<input type="hidden" name="searchphrase" value="any"/>
+	<input type="hidden" name="limit" value="20" />
+	<input type="hidden" name="ordering" value="newest" />
+	<input type="hidden" name="view" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+
+
+	<div id="roksearch_results"></div>
+</div>
+<div id="rokajaxsearch_tmp" style="visibility:hidden;display:none;"></div>
+</form>	                	</div>
+                	</div>
+           </div>
+
+</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+						<div id="rt-header">
+			<div class="rt-container">
+				<div class="rt-grid-7 rt-alpha">
+    	<div class="rt-block menu-block">
+		<div class="gf-menu-device-container"></div>
+<ul class="gf-menu l1 " >
+                    <li class="item101" >
+
+            <a class="item icon" href="/"  >
+
+                                <i class="icon-home">Home</i>                            </a>
+
+
+                    </li>
+                            <li class="item117 parent active last" >
+
+            <a class="item icon" href="/index.php/blog"  >
+
+                                <i class="icon-book">Blog</i>                                <span class="border-fixer"></span>
+                            </a>
+
+
+
+                                    <div class="dropdown columns-2 " style="width:220px;">
+                                                <div class="column col1"  style="width:110px;">
+                            <ul class="l2">
+                                                                                                                    <li class="item118" >
+
+            <a class="item icon" href="/index.php/blog/features"  >
+
+                                <i class="icon-cogs">Features</i>                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item119" >
+
+            <a class="item icon" href="/index.php/blog/css-less"  >
+
+                                <i class="icon-list">css-less</i>                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item120" >
+
+            <a class="item icon" href="/index.php/blog/tutorials"  >
+
+                                <i class="icon-eye-open">Tutorials</i>                            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                                <div class="column col2"  style="width:110px;">
+                            <ul class="l2">
+                                                                                                                    <li class="item121" >
+
+            <a class="item icon" href="/index.php/blog/media"  >
+
+                                <i class="icon-music">Media</i>                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item122" >
+
+            <a class="item icon" href="/index.php/blog/fonts"  >
+
+                                <i class="icon-text-height">Fonts</i>                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item123" >
+
+            <a class="item icon" href="/index.php/blog/system"  >
+
+                                <i class="icon-wrench">System</i>                            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+            </ul>		<div class="clear"></div>
+	</div>
+
+</div>
+<div class="rt-grid-3">
+
+
+		<div class="
+		"
+		<div class="rt-block">
+
+		<div class="rt-social-buttons">
+
+					<a class="social-button rt-facebook-button" href="http://conquatheme.com " target="_blank">
+				<span></span>
+			</a>
+						<a class="social-button rt-twitter-button" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fconquatheme.com%2Findex.php%2Fcontact&region=follow_link&screen_name=Marcin_Conqua&source=followbutton&variant=2.0" target="_blank">
+				<span></span>
+			</a>
+
+
+
+
+
+
+
+
+
+						<a class="social-button rt-rss-button" href="feed://conquatheme.com/index.php/blog?format=feed" target="_blank">
+				<span></span>
+			</a>
+		</div>
+		</div>
+
+
+</div>
+<div class="rt-grid-2 rt-omega">
+    	    <div class="rt-block">
+			<div class="rt-popupmodule-button">
+			<p class="rt-readon-surround" >
+				<a href="#" class="btn btn-inverse btn-small" rel="rokbox[350 400][module=rt-popuplogin]">
+					<span class="desc">Member Login</span>
+				</a></p>
+						</div>
+		</div>
+
+</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+			</header>
+		    <div id="rt-drawer">
+        <div class="rt-container">
+                        <div class="clear"></div>
+        </div>
+    </div>
+    		<div id="rt-transition">
+		<div id="rt-mainbody-surround">
+																					<div class="rt-container">
+
+<div id="rt-main" class="mb9-sa3">
+                <div class="rt-container">
+                    <div class="rt-grid-9 ">
+                                                						<div class="rt-block">
+	                        <div id="rt-mainbody">
+								<div class="component-content">
+
+<div id="yoo-zoo" class="yoo-zoo blog-expo blog-expo-html5-video-player">
+
+		<div class="item">
+
+
+
+<div class="pos-date">
+	<div class="day">27</div><div class="month">September</div><div class="year">2012</div>
+</div>
+
+<h1 class="pos-title"> <a title="HTML5 video player" href="/index.php/blog/media/item/html5-video-player">HTML5 video player</a> </h1>
+
+<h2 class="pos-subtitle">
+	 <div id="87b5c7e7-6a8b-446c-a720-de225d676263-51b9002211059" class="yoo-zoo rating">
+
+	<div class="rating-container star5">
+		<div class="previous-rating" style="width: 100%;"></div>
+
+				<div class="current-rating">
+
+						<div class="stars star5" title="5 out of 5"></div>
+						<div class="stars star4" title="4 out of 5"></div>
+						<div class="stars star3" title="3 out of 5"></div>
+						<div class="stars star2" title="2 out of 5"></div>
+						<div class="stars star1" title="1 out of 5"></div>
+
+		</div>
+			</div>
+
+		<div class="vote-message">
+		5.0/<strong>5</strong> rating (1 votes)	</div>
+
+		<div itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+		<meta itemprop="itemreviewed" content="HTML5 video player" />
+		<div itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+			<meta itemprop="average" content="5.0" />
+			<meta itemprop="best" content="5" />
+		</div>
+		<meta itemprop="votes" content="1"/>
+	</div>
+
+</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#87b5c7e7-6a8b-446c-a720-de225d676263-51b9002211059').ElementRating({ url: '/index.php/blog?task=callelement&format=raw&item_id=17&element=87b5c7e7-6a8b-446c-a720-de225d676263' });
+		});
+	</script>
+ </h2>
+
+
+<div class="floatbox">
+
+
+		<div class="pos-content">
+		<div class="element element-textarea first">
+	<div class="blogimage"><img src="/images/blog/Movie_Studio-Android-R2.jpg" /></div>
+
+
+<p>For me Gantry 4 was released just in time. Two days earlier, I got a new job in order to make a website. <br>One of the items on this page are the training videos. Gantry 4 is HTML 5 compatible so I can use new standard for media. Unfortunately default players are different in each web browser and do not look very nice. In web is plenty js extensions for media player. I have chosen Video.js due to  it plays also Youtube and Vimeo movies.</p>
+<hr id="system-readmore" /></div>
+<div class="element element-textarea last">
+	<p>Before we start few words about video standrad in HTML5. There is no until now one common video format for all browsers. See table below:</p>
+<table class="table table-striped table-shadowed" style="width:50%; border-radius:5px; box-shadow:0px 0px 5px #4a4a4a">
+<thead>
+<tr>
+<th style="text-align:center">Browser</th><th style="text-align:center">Ogg Theora (ogv)</th><th style="text-align:center">MP4</th><th>WebM</th>
+</tr></thead>
+<tr><td>Firefox 4.0+</td><td><p class="nomarginall" style="text-align:center"><span class="icon-ok icon-green icon-large" ></span></p> </td><td> </td><td> <p class="nomarginall" style="text-align:center"><span class="icon-ok icon-green icon-large" ></p></td></tr>
+<tr><td>Safari 3+</td><td></td><td><p class="nomarginall" style="text-align:center"><span class="icon-ok icon-green icon-large" ></span></p></td><td></td></tr>
+<tr><td>Chrome 6 +</td><td><p class="nomarginall" style="text-align:center"><span class="icon-ok icon-green icon-large" ></span></p></td><td><p class="nomarginall" style="text-align:center"><span class="icon-ok icon-green icon-large" ></span></p></td><td><p class="nomarginall" style="text-align:center"><span class="icon-ok icon-green icon-large" ></span></p></td></tr>
+<tr><td>Chrome 5 -</td><td><p class="nomarginall" style="text-align:center"><span class="icon-ok icon-green icon-large" ></span></p></td><td><p class="nomarginall" style="text-align:center"><span class="icon-ok icon-green icon-large" ></span></p></td><td></td></tr>
+<tr><td>Opera 10.6 +</td><td><p class="nomarginall" style="text-align:center"><span class="icon-ok icon-green icon-large" ></span></p></td><td></td><td><p class="nomarginall" style="text-align:center"><span class="icon-ok icon-green icon-large" ></span></p></td></tr>
+<tr><td>Opera 10.5</td><td><p class="nomarginall" style="text-align:center"><span class="icon-ok icon-green icon-large" ></span></p></td><td></td><td></td></tr>
+<tr><td>IE 9 +</td><td></td><td><p class="nomarginall" style="text-align:center"><span class="icon-ok icon-green icon-large" ></span></p></td><td></td></tr>
+</table>
+<p>I'm going to use mp4 and ogg Theora formats. If you need video converter there is one nice and small <a href="http://www.mirovideoconverter.com" target="_blank">Miro Video Converter </a></p>
+<p><strong>Of course we start with the fields</strong></p>
+
+<pre class="brush:xml gutter:false">
+     &lt;fields name="html5player" type="chain" label="HTML5_PLAYER"&gt;
+         &lt;field name="enabled" type="toggle" default="0" label="ON/OF"/&gt;
+         &lt;field name="internal" type="toggle" default="0" label="INTERNAL"/&gt;
+         &lt;field name="youtube" type="toggle" default="0" label="YOUTUBE"/&gt;
+         &lt;field name="vimeo" type="toggle" default="0" label="VIMEO"/&gt;
+    &lt;/fields&gt;
+</pre>
+<img src="/images/blog/html5player.jpg" alt=""class="blogimage" />
+<p>What is "internal"? Videojs can be used with links to js and css files on ofiicial site. If you switch this toggle to internal js and css from your server will be linked in header.</p>
+<p>Now our feature</p>
+<pre class="brush:php">
+&lt;?php
+/**
+ * @package     gantry
+ * @subpackage  features
+ * @version        4
+ * @author      Marcin Paczkowski
+ * @license     do whatever you want :)))
+ */
+
+defined('JPATH_BASE') or die();
+
+gantry_import('core.gantryfeature');
+
+class GantryFeatureHtml5player extends GantryFeature {
+    var $_feature_name = 'html5player';
+
+    function init() {
+    global $gantry;
+
+$Folderjs = JURI::root(true)."/templates/".strtolower($gantry->get('template_full_name'))."/js/html5player";
+
+		if ($gantry->get('html5player-enabled')) {
+
+
+			if($gantry->get('html5player-internal')==1) {
+
+			$gantry->addLess('video-js.less');
+			$gantry->addScript($Folderjs ."/video.js");	}
+
+			else {
+
+			$gantry->addStyle('//vjs.zencdn.net/c/video-js.css');
+				$gantry->addScript('//vjs.zencdn.net/c/video.js');}
+
+			if($gantry->get('html5player-youtube')==1)
+			{$gantry->addScript($Folderjs ."/html5.js");
+			$gantry->addScript($Folderjs ."/youtube.js");}
+
+			if($gantry->get('html5player-vimeo')==1)
+			{$gantry->addScript($Folderjs ."/html5.js");
+			$gantry->addScript($Folderjs ."/vimeo.js");}
+
+			}
+		}
+
+	}
+</pre>
+<p>Very easy  - adds relevant links to css and js files depending on which toggle is off/on </p>
+<p><strong>Video code</strong></p>
+<pre class="brush:xml">
+&lt;video id="my_video_1" class="video-js vjs-default-skin video-big"
+ controls  preload="auto"   poster="/images/greenday.jpg"
+ data-setup="{}" &gt;
+&lt;source src="/images/greenday - Green Day - 21 Guns.mp4" type='video/mp4'&gt;
+&lt;source src="/images/greenday - Green Day - 21 Guns.theora.ogv" type='video/ogv'&gt;
+&lt;/video&gt;
+</pre>Result
+  <br><br>
+  <h4 style="text-align:center; text-shadow:0px 1px 1px #686868">Green Day - "21 Guns"</h4>
+
+ <video id="my_video_1" class="video-js vjs-default-skin video-big"
+ controls
+ preload="auto"   poster="/images/greenday.jpg"  data-setup="{}">
+  <source src="/images/greenday - Green Day - 21 Guns.mp4" type='video/mp4'>
+  <source src="/images/greenday - Green Day - 21 Guns.theora.ogv" type='video/ogv'>
+</video>
+<br>
+<p>Parameters:<br>
+	<span class="icon-cog icon-blue icon-shadow"> "controls" - shows controls like play, pause etc</span><br>
+	<span class="icon-cog icon-blue icon-shadow"> "poster" - image shown before video is playing</span><br>
+	<span class="icon-cog icon-blue icon-shadow"> "preload" - preloads video when page is open. You can use "auto", "metadata"-loads only metadata and "none"</span><br>
+	<span class="icon-cog icon-blue icon-shadow"> "autoplay" - will play video just after page is loaded</span><br>
+	<span class="icon-cog icon-blue icon-shadow"> "width" & "height" - no need to explain :))</span><br>
+</p>
+<h4 class="articleheader">Youtube and Vimeo</h4>
+<p>Code for youtube</p>
+
+<pre class="brush:xml">
+&lt;video id="example_video_2" class="video-js vjs-default-skin video-small" controls
+ data-setup='{"techOrder":["html5", "youtube"]}'>
+&lt;source src="http://www.youtube.com/watch?v=kL0ASfyPIuU" type='video/youtube'&gt;
+&lt;/video&gt;
+</pre>
+<h4 style="text-align:center; text-shadow:0px 1px 1px #686868">Placebo - "Kings Of Medicine"</h4>
+
+<video id="example_video_2" class="video-js vjs-default-skin video-small" controls
+ data-setup='{"techOrder":["html5", "youtube"]}'>
+<source src="http://www.youtube.com/watch?v=kL0ASfyPIuU" type='video/youtube'>
+</video>
+
+<br>
+<p>Code for vimeo</p>
+<pre class="brush:xml">
+&lt;video id="example_video_3" class="video-js vjs-default-skin video-small" controls
+ data-setup='{"techOrder":["html5", "vimeo"]}'>
+&lt;source src="http://vimeo.com/45906587" type='video/vimeo'&gt;
+&lt;/video&gt;
+</pre>
+
+<h4 style="text-align:center; text-shadow:0px 1px 1px #686868">Billy Talent - "Dead Viking March"</h4>
+
+<video id="example_video_3" class="video-js vjs-default-skin video-small" controls
+ data-setup='{"techOrder":["html5", "vimeo"]}'>
+<source src="http://vimeo.com/45906587" type='video/vimeo'>
+</video>
+
+<h4 class="articleheader">Styles</h4>
+<p>You may say that it doesn't look very good. That's true - by default there is no big difference to default browser player. If you open video-js.less file you will find out that  skin is built by regular css. Controlers are regular pngs, progress bars are gradients. It is quite easy to customize style to your own preferences. In fact this is second reason why I'm using Videojs.</p><br>
+
+<p>There is more options which possible to use with Videojs. More information you can find on the official page <a href="http://videojs.com" target="_blank">Videojs</a></p>
+
+<h4 class="articleheader">Latest update</h4>
+<p>To video-js.less I have added 2 resposinve classes - video-big (movie 1) and video-small (movies 2 adn 3). If you will use those clasess there is no need to use parameters "width" and "height". Of course if you want you can add more classes. </p>
+<p>Below you find download link<br>
+<span CLASS="icon-arrow-right icon-blue"></span> create  fields<br>
+<span CLASS="icon-arrow-right icon-blue"></span> copy html5player.php file to ../templates/gantry/features folder<br>
+<span CLASS="icon-arrow-right icon-blue"></span> copy html5player folder from /js folder to ../templates/gantry/js folder <br>
+<span CLASS="icon-arrow-right icon-blue"></span> copy video-js.less file to ../templates/gantry/less folder <br>
+<span CLASS="icon-arrow-right icon-blue"></span> copy video-js.png file to ../templates/gantry/images folder <br>
+</p></div>	</div>
+
+</div>
+
+
+<ul class="pos-taxonomy">
+	<li class="element element-itemauthor first">
+	<strong>Author: </strong>Marcin</li>
+<li class="element element-itemhits last">
+	<strong>Hits: </strong>2552</li></ul>
+
+<p class="pos-meta">
+	<span class="element element-download first last">
+	 <a href="/index.php/blog?task=callelement&amp;format=raw&amp;item_id=17&amp;element=56c4618c-0e6b-49e1-b80f-63f220bf187f&amp;method=download" title="Download conqua-html5player-tutorial.zip">Download conqua-html5player-tutorial.zip</a></span></p>
+
+
+
+
+<div id="comments">
+
+	<h3 class="comments-meta">Comments (0)</h3>
+
+		<ul class="level1
+nested
+">
+					</ul>
+
+
+<div id="respond">
+	<h3>Leave a comment</h3>
+
+	<form class="style short" method="post" action="/index.php/blog?controller=comment&amp;task=save">
+
+
+
+		<p class="user">You are commenting as guest. </p>
+
+
+
+
+			<div class="author required">
+				<input id="comments-author" type="text" name="author" placeholder="Name *" value=""/>
+			</div>
+
+			<div class="email required">
+				<input id="comments-email" type="text" name="email" placeholder="E-mail *" value=""/>
+			</div>
+
+			<div class="url">
+				<input id="comments-url" type="text" name="url" placeholder="Website" value=""/>
+			</div>
+
+
+
+
+			<div class="content">
+				<textarea name="content" rows="1" cols="1" ></textarea>
+			</div>
+
+											<div class="captcha">
+					<div id="dynamic_recaptcha_1"></div>				</div>
+
+			<div class="actions">
+				<input name="submit" type="submit" value="Submit comment" accesskey="s"/>
+			</div>
+
+			<input type="hidden" name="item_id" value="17"/>
+			<input type="hidden" name="parent_id" value="0"/>
+			<input type="hidden" name="redirect" value="/index.php/blog/item/html5-video-player"/>
+			<input type="hidden" name="7b6d61405097afd11a39c09ba1c058af" value="1" />
+
+	</form>
+</div>
+</div>
+
+<script type="text/javascript">
+	jQuery(function($) {
+		$('#comments').Comment({
+			cookiePrefix: 'zoo-comment_',
+			cookieLifetime: '15552000',
+			msgCancel: 'Cancel'
+		});
+	});
+</script>	</div>
+
+</div>
+								</div>
+	                        </div>
+						</div>
+                                                                    </div>
+                                <div class="rt-grid-3 ">
+                <div id="rt-sidebar-a">
+                               <div class="rt-block boxconqua1 titleconqua1">
+           	<div class="module-surround">
+	           				<div class="module-title">
+	                		<h2 class="title">Categories</h2>
+			</div>
+	                		                	<div class="module-content">
+	                		<ul class="zoo-list">
+<li class="">
+<a href="/index.php/blog/system" class=""><span>System (2)</span></a>
+</li>
+<li class="">
+<a href="/index.php/blog/media" class=""><span>Media (1)</span></a>
+</li>
+<li class="">
+<a href="/index.php/blog/features" class=""><span>Features (9)</span></a>
+</li>
+<li class="">
+<a href="/index.php/blog/tutorials" class=""><span>Tutorials (4)</span></a>
+</li>
+<li class="">
+<a href="/index.php/blog/css-less" class=""><span>css&less (2)</span></a>
+</li>
+<li class="">
+<a href="/index.php/blog/fonts" class=""><span>Fonts (2)</span></a>
+</li>
+</ul>	                	</div>
+                	</div>
+           </div>
+	           <div class="rt-block boxconqua2 titleconqua2">
+           	<div class="module-surround">
+	           				<div class="module-title">
+	                		<h2 class="title">Most popular</h2>
+			</div>
+	                		                	<div class="module-content">
+	                		<div class="sprocket-lists" data-lists="95">
+	<ul class="sprocket-lists-container" data-lists-items>
+		<li class="active" data-lists-item>
+		<h4 class="sprocket-lists-title" data-lists-toggler>
+		<a href="/index.php/blog/item/fontawesome-is-awsome">			Fontawesome is awsome		</a>			</h4>
+		<span class="sprocket-lists-item" data-lists-content>
+		<span class="sprocket-padding">
+												<a href="/index.php/blog/item/fontawesome-is-awsome" class="readon"><span>Continue Reading</span></a>
+					</span>
+	</span>
+</li>
+<li class="active" data-lists-item>
+		<h4 class="sprocket-lists-title" data-lists-toggler>
+		<a href="/index.php/blog/item/smart-social-links">			Smart social links		</a>			</h4>
+		<span class="sprocket-lists-item" data-lists-content>
+		<span class="sprocket-padding">
+												<a href="/index.php/blog/item/smart-social-links" class="readon"><span>Continue Reading</span></a>
+					</span>
+	</span>
+</li>
+<li class="active" data-lists-item>
+		<h4 class="sprocket-lists-title" data-lists-toggler>
+		<a href="/index.php/blog/item/html5-video-player">			HTML5 video player		</a>			</h4>
+		<span class="sprocket-lists-item" data-lists-content>
+		<span class="sprocket-padding">
+												<a href="/index.php/blog/item/html5-video-player" class="readon"><span>Continue Reading</span></a>
+					</span>
+	</span>
+</li>
+<li class="active" data-lists-item>
+		<h4 class="sprocket-lists-title" data-lists-toggler>
+		<a href="/index.php/blog/item/how-to-change-template-name">			How to change template name		</a>			</h4>
+		<span class="sprocket-lists-item" data-lists-content>
+		<span class="sprocket-padding">
+												<a href="/index.php/blog/item/how-to-change-template-name" class="readon"><span>Continue Reading</span></a>
+					</span>
+	</span>
+</li>
+<li class="active" data-lists-item>
+		<h4 class="sprocket-lists-title" data-lists-toggler>
+		<a href="/index.php/blog/item/basics-of-features-part-1-how-features-works">			Basics of Features part 1-How features works ?		</a>			</h4>
+		<span class="sprocket-lists-item" data-lists-content>
+		<span class="sprocket-padding">
+												<a href="/index.php/blog/item/basics-of-features-part-1-how-features-works" class="readon"><span>Continue Reading</span></a>
+					</span>
+	</span>
+</li>
+	</ul>
+	<div class="sprocket-lists-nav">
+		<div class="sprocket-lists-pagination-hidden">
+			<ul>
+									    	<li class="active" data-lists-page="1"><span>1</span></li>
+						</ul>
+		</div>
+		<div class="spinner"></div>
+			</div>
+</div>
+	                	</div>
+                	</div>
+           </div>
+	           <div class="rt-block ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		<!-- VCNT - Visitorcounter for Joomla 3 - Kubik-Rubik Joomla! Extensions by Viktor Vogel --><div class="visitorcounter ">
+                                                                                <p class="whoisonline">
+            Currently are 13&#160;guests and no members online        </p>
+                        <p class="small">
+            <a href="http://joomla-extensions.kubik-rubik.de" target="_blank" title="VCNT - Visitorcounter - Joomla! 3 - Kubik-Rubik Joomla! Extensions">Kubik-Rubik Joomla! Extensions</a>
+        </p>
+    </div>	                	</div>
+                	</div>
+           </div>
+
+                </div>
+            </div>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+		    	</div>
+											</div>
+	</div>
+			<footer id="rt-footer-surround">
+				<div id="rt-footer">
+			<div class="rt-container">
+				<div class="rt-grid-12 rt-alpha rt-omega">
+               <div class="rt-block ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+
+
+<div class="custom"  >
+	<div style="margin:0 auto">
+<a class="footerlinks" href="http://www.gantry-framework.org" target="_blank"><img src="/images/footer/logo.png"></a>
+<a class="footerlinks" href="http://lesscss.org" target="_blank"><img src="/images/footer/logoless.png"></a>
+<a class="footerlinks" href="http://twitter.github.com/bootstrap/" target="_blank"><img src="/images/footer/bootstrap.png"></a>
+<a class="footerlinks" href="http://www.rockettheme.com" target="_blank"><img src="/images/footer/rocket.png"></a>
+<a class="footerlinks" href="http://demo.gantry-framework.org" target="_blank"><img src="/images/footer/logodemo.png"></a>
+<a class="footerlinks" href="http://mootools.net" target="_blank"><img src="/images/footer/mootools.png"></a>
+</div></div>
+	                	</div>
+                	</div>
+           </div>
+
+</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+					</footer>
+
+<div id="rt-popuplogin">
+  	<div class="rt-block">
+		<div class="module-content">
+						<h2 class="title">Login Form</h2>
+						<div class="module-inner">
+               	<form action="/index.php/blog" method="post" id="login-form" >
+		<fieldset class="userdata">
+	<p id="form-login-username">
+		<label for="modlgn-username">User Name</label>
+		<input id="modlgn-username" type="text" name="username" class="inputbox"  size="18" />
+	</p>
+	<p id="form-login-password">
+		<label for="modlgn-passwd">Password</label>
+		<input id="modlgn-passwd" type="password" name="password" class="inputbox" size="18"  />
+	</p>
+		<p id="form-login-remember">
+		<label for="modlgn-remember">Remember Me</label>
+		<input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/>
+	</p>
+		<input type="submit" name="Submit" class="button" value="Log in" />
+	<input type="hidden" name="option" value="com_users" />
+	<input type="hidden" name="task" value="user.login" />
+	<input type="hidden" name="return" value="aW5kZXgucGhwP29wdGlvbj1jb21fem9vJnRhc2s9aXRlbSZpdGVtX2lkPTE3Jkl0ZW1pZD0xMTc=" />
+	<input type="hidden" name="7b6d61405097afd11a39c09ba1c058af" value="1" />	</fieldset>
+	<ul>
+		<li>
+			<a href="/index.php/component/users/?view=reset">
+			Forgot your password?</a>
+		</li>
+		<li>
+			<a href="/index.php/component/users/?view=remind">
+			Forgot your username?</a>
+		</li>
+				<li>
+			<a href="/index.php/component/users/?view=registration">
+				Create an account</a>
+		</li>
+			</ul>
+	</form>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+	</body>
+</html>

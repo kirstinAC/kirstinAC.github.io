@@ -1,0 +1,457 @@
+/*
+ *  AJAX Paypal Cart CSS
+ *  Copyright (c) 2011 DIGICRAFTS. All Right Reserved.
+ *
+ *  This software is the proprietary information of
+ *  DIGICRAFTS. ("Proprietary Information").  You shall not
+ *  disclose such Proprietary Information and shall use it only in
+ *  accordance with the terms of the license agreement you entered into
+ *  with DIGICRAFTS. 
+ */
+ /*
+ 	Customized for Art Center - ACN - 2014 
+ */ 
+ /*************************************
+ 
+   General
+ 
+  **************************************/
+.dc_ui.cart .button {
+    color:#725132;
+    background-color:#D2FDC9;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    border-radius: .4em .4em .4em .4em;
+    overflow: hidden;
+    background-image:url(glossy.png);
+    padding:.3em 1em;
+    border:thin solid #2BE101;
+    font-weight: bold;
+}
+
+.dc_ui.cart .button.disabled {
+    background-color: #BBB;
+    border: thin solid #999;
+}
+
+
+.dc_ui.cart .button.over {
+    color:#2BE101;
+}
+
+
+/*************************************
+ 
+   Cart Widget
+ 
+  **************************************/
+
+.cartWidget {
+	font-family: "Apercu Bold",Calibri,sans-serif;
+    color:#725132;       
+    background-color:#D2FDC9;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    border-radius: .3em .3em .3em .3em;
+    background-image:url(glossy.png);
+    -moz-box-shadow: 0px 0px 6px #2BE101;
+    -webkit-box-shadow: 1px 1px 1px #2BE101;
+    box-shadow: 1px 1px 1px #2BE101;
+    cursor: pointer;
+    /*added*/
+    width: 100px; 		
+    height: 21px;
+    //font-weight: bold;
+    padding: 4px 12px 0px 12px;
+    float: right;
+    margin-top:0px;
+	margin-right: 3px;    
+}
+.cartWidget .amount{
+   font-size:.9em;
+   font-weight: bold;
+    padding:6px 20px;
+}
+.cartWidget .badge{
+    font-size:1.4em;
+    padding: 3px;
+    text-align: center;
+}
+.cartWidget:hover {
+    color:#2BE101;
+}
+
+/*************************************
+ 
+   Main Cart View
+ 
+  **************************************/
+
+.cartcontainer {
+	font-family: "Apercu Regular",Calibri,sans-serif;
+    position: fixed;
+    background-color: #FFF;
+    border: thin #999 solid;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    border-radius: .3em .3em .3em .3em;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -webkit-box-shadow: 0px 0px 6px #000;
+    box-shadow: 0px 0px 6px #000;
+    padding:10px;
+}
+
+.cartcontainer > .header {
+    height:40px;
+}
+
+.cartcontainer > .footer {
+    font-size: .8em;
+    color: #333333;
+    height:25px;
+    text-align: center;    
+}
+
+.cartcontainer > .header_container {
+    height:40px;
+}
+
+.cartcontainer > .header_container .title{
+    padding:5px;
+    height:100%;
+}
+
+.cartcontainer > .header_container .title p{
+    padding:5px;
+    height:100%;
+}
+
+/* Step header bar */
+
+.cartcontainer > .header_container .step{
+    display: inline;
+    font-size: .6em;
+    background-color:#DDD;
+    padding: 15px 15px;
+    text-shadow: 0.1em 0.1em #999;
+}
+
+.cartcontainer > .header_container .step.selected{
+    background-color:#2BE101;
+}
+
+.cartcontainer > .header_container .step .tag{
+    padding:5px;
+    color:#999;
+    background-color:#cccccc;
+    padding: 5px 10px;
+    display: inline;
+   -moz-border-radius: .5em;
+    -webkit-border-radius: .5em;
+    border-radius: .5em .5em .5em .5em;
+}
+.cartcontainer > .header_container .step.selected .tag{
+    color:#725132;
+    background-color:#2BE101;
+}
+
+/* Text below step header bar */
+
+.cartcontainer > .title_container {
+	font-family: "Apercu Regular",Calibri,sans-serif;
+    height:50px;
+}
+.cartcontainer > .title_container .title{
+    font-size: 1.6em;
+    padding:5px;
+    height:100%;
+    width: 100% !important;
+    color: #725132;
+}
+
+/* Area to hold the control button */
+
+.cartcontainer > .control_container {
+	font-family: "Apercu Bold",Calibri,sans-serif;
+    height:40px;
+}
+
+.cartcontainer > .control_container > .left_button{
+    top:5px;
+    left:10px;
+    font-size: 1.4em;
+    height: auto !important;
+    padding: 8px 20px 8px 20px;
+}
+
+.cartcontainer > .control_container > .right_button{
+    top:5px;
+    right:10px;
+    font-size: 1.4em;
+    height: auto !important;
+    padding: 8px 20px 8px 20px;
+}
+
+
+/*************************************
+ 
+   Cart List page
+ 
+  **************************************/
+
+.cartview {
+	font-family: "Apercu Regular",Calibri,sans-serif;
+    font-size: .9em;
+}
+
+.cartview .title_container{
+    height:25px;
+    font-size: .9em;
+    padding: .5em;
+}
+
+.cartview .title_container .title_label{
+    width:100%;
+    text-align: center;
+}
+
+.cartview .info_container{
+	font-family: "Apercu Bold",Calibri,sans-serif;
+    height:55px;
+    background-color:#F9F9F9;
+    border: #DDD solid thin;
+}
+
+.cartview .info_container .total_label{
+    font-size: 1em;
+    padding: 2.4em 1.4em;
+
+    right:10px;
+}
+
+.cartview .info_container .total_label .currency{
+    display:inline;
+    color: #2BE101;
+    font-weight: bold;
+    font-size: .3em;
+}
+
+.cartview .info_container .total_label .amount{
+    font-size: 1.5em;
+    display:inline;
+    color: #2BE101;
+    font-weight: bold;
+}
+
+.cartview .info_container .update_button{
+    font-size: .8em;
+    right:180px;
+    top:15px;
+}
+
+/* Each item in cart */
+
+.cartview .renderer {
+//    font-size: .9em;
+    font-family: "Apercu Regular",Calibri,sans-serif;
+    height: 40px;
+    border-bottom: thin #cccccc dotted;
+}
+
+.cartview .renderer.over{
+    background-color: #EEE;
+}
+
+.cartview .renderer .container {
+    left:5px;
+}
+.cartview .renderer .thumbnail{
+    top:5px;
+}
+.cartview .renderer .title {
+	font-family:"Apercu Bold", Calibri, sans-serif;
+    width:450px;
+    top:5px;
+    font-size: 1.4em;
+    color: #2BE101;
+}
+.title2{
+	font-family:"Apercu Regular", Calibri, sans-serif;
+    font-size: 0.9em;
+    color: #2BE101;
+    padding-top:5px;
+}
+.cartview .renderer .itemid {
+	color: #725132;
+    font-family: "Apercu Regular",Calibri,sans-serif;
+    font-size: 1.22em;
+    font-weight: 300;
+    line-height: 1.4em;
+    text-align: left;
+
+    width:450px;
+    top:25px;
+}
+
+.cartview .renderer .qty {
+    right:160px;
+    top:10px;
+}
+
+.cartview .renderer .price {
+    right:90px;
+    top:10px;
+}
+
+.cartview .renderer .button.delete_button{
+    font-family: "Apercu Regular",Calibri,sans-serif;
+	color:#725132;
+    background-color: #D2FDC9;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+//    padding:.2em .5em;
+    right:20px;
+    top:10px;
+    font-size: 1.4em;
+    font-weight: normal;
+}
+.cartview .renderer .button.delete_button.over{
+    color:#2BE101;
+    background-color: #D2FDC9;
+}
+
+/*************************************
+ 
+   Shipping Page
+ 
+  **************************************/
+
+.shippingview .form textarea,
+.shippingview .form input {
+    border:#333333 thin inset;
+    padding:0;
+    margin: 0;
+    top:0;
+    display: block;
+    -moz-box-shadow: 1px 1px 2px #999 inset;
+    -webkit-box-shadow: 1px 1px 2px #999 inset;
+    box-shadow: 1px 1px 2px #999 inset;
+}
+
+.shippingview .form .highlight textarea,
+.shippingview .form .highlight input {
+    background-color:#ffcccc;
+}
+
+.shippingview .form .label {
+    font-size: .8em;
+    padding:0 10px;
+}
+
+.shippingview .form .highlight{
+    border: red dotted thin;
+}
+
+/*************************************
+ 
+   Payment Page
+ 
+  **************************************/
+
+.paymentview .detail_container {
+	font-family: "Apercu Regular",Calibri,sans-serif;
+    padding: 20px 20px 20px 16px;
+    width:95%;
+    background-color:#EEE;
+    border-top: dotted thin #999;
+    border-bottom: dotted thin #999;
+    font-size: 1.22em;
+    color: #725132;
+}
+
+.paymentview .pay_button_container {
+    left: 32%;
+    top:100px;
+}
+
+.paymentview .payment_button {
+    padding: 10px;
+}
+
+/*************************************
+ 
+   Select Page
+ 
+  **************************************/
+#classsection li .bookmark_button {
+	margin-left: 0px;
+	float: right;	
+
+	margin-top: 0.5em;
+	//font-size: 0px;
+	
+    color:#725132;       
+    background-color:#D2FDC9;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    border-radius: .3em .3em .3em .3em;
+    cursor: pointer;
+    font-weight: normal;
+    padding: 7px;
+	
+}
+#classsection li .bookmark_button:hover {
+    color:#2BE101;
+}
+.bookmark_button img {
+    cursor: pointer;
+}
+
+
+/*****************************************************************
+	MOBILE
+******************************************************************/
+@media screen and (min-width: 0px) and (max-width: 767px) 
+{
+	.bookmark_button img {
+		visibility:hidden;
+	}
+
+	.cartWidget	{
+		visibility:hidden;
+	}
+	
+	#classsection li .bookmark_button {
+		visibility:hidden;
+	}
+	
+
+}
+
+/*****************************************************************
+	TABLET
+******************************************************************/
+@media screen and (min-width: 768px) and (max-width: 999px) 
+{
+
+	.cartWidget	{
+		border: 2px solid #fff;
+		height: 24px !important;
+		left: 82%;
+		overflow: hidden;
+		padding: 0 0 3px !important;
+		position: absolute;
+		top: 4px;
+		width: 30px;
+	}		
+
+	.cartWidget .badge 	{
+		line-height: 2em;
+		margin-top: -32px;
+		font-size: 1.4em;
+	}
+	
+	
+	
+}
