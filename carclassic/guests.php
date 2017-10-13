@@ -32,36 +32,38 @@
             <strong>Barry J. Meguiar,&nbsp;</strong>President and CEO, Meguiar&rsquo;s, Inc. and host,&nbsp;<em>Car Crazy Radio</em></p>
         
         <h3><strong>Guest Speakers</strong></h3>
-        <p><strong>Sasha Selipanov</strong> &ndash; Currently Head of Advanced Design for Genesis and previously responsible for exterior design of the Bugatti Vision Gran Turismo show car and Bugatti Chiron.</p>
+        <p><strong>Sasha Selipanov</strong> (BS 05) &ndash; Currently Head of Advanced Design for Genesis and previously responsible for exterior design of the Bugatti Vision Gran Turismo show car and Bugatti Chiron.</p>
         <p><strong>Jason Castriota</strong> &ndash; Currently Chief Designer for cars at Ford and previously responsible for the Ferrari 599 GTB Fiorano, Maserati GranTurismo, Maserati Birdcage 75th and one-off Ferrari P 4/5.</p>
         <p><strong>Miguel Galluzzi</strong> (BS 86) &ndash; Currently head of Piaggio’s Advanced Design Center and previously responsible for the Ducati 900SS Monster, Aprilia Dorsoduro, RSV4, Tuono, Moto Guzzi V7 Racer and California 1400.</p>
         <p><strong>Tom Peters</strong> (BS 80) &ndash; Currently Director of Exterior Design for General Motors and previously responsible for the C6 and C7 (Stingray) Corvette and 5th generation Camaro.</p>
         
-        <h3><strong>JUDGES (2016)</strong></h3>
-        <p><strong>Kevin Beard</strong> (BS 92)<br>
-          <strong>Dennis Campbell</strong><br>
-          <strong>Marek Djordjevic</strong> (BS 91)<br>
-          <strong>Fireball Tim</strong> (BS 89)<br>
+        <h3><strong>JUDGES</strong></h3>
+        <p><strong>Dennis Campbell</strong><br>
+          <strong>Chris Chapman</strong> (BS 89)<br>
+          <strong>Ian Cartabiano</strong> (BS 97)<br>
+          <strong>Jason Castriota</strong><br>
+          <strong>Henrik Fisker</strong> (BS 89)<br>
           <strong>Miguel Galluzzi</strong> (BS 86)<br>
-          <strong>Jason Hill</strong> (BS 90)<br>
+          <strong>Karen Hofmann</strong> (BS 97)<br>
+          <strong>Kevin Hunter</strong><br>
           <strong>Derek Jenkins</strong> (BS 93)<br>
-          <strong>Tisha Johnson</strong> (BS 99)<br>
-          <strong>Dennis Little</strong> (BS 68)<br>
+          <strong>Richard Kim</strong> (BS 04)<br>
+          <strong>Fireball Tim Lawrence</strong> (BS 89)<br>
           <strong>Dave Marek</strong> (BS 87)<br>
-          <strong>Jordan Meadows</strong><br>
           <strong>Jae Min</strong> (BS 94)<br>
           <strong>Chuck Pelly</strong> (BS 58)<br>
+          <strong>Tom Peters</strong> (BS 80)<br>
           <strong>Richard Pietruska</strong> (BS 70)<br>
           <strong>Rich Plavetich</strong><br>
           <strong>Christopher Rhoades</strong> (BS 86)<br>
-          <strong>Lucian Rosca</strong> (BS 89)<br>
           <strong>John Sahs</strong> (BS 92)<br>
+          <strong>Sasha Selipanov</strong> (BS 05)<br>
           <strong>Frank Saucedo</strong> (BS 84)<br>
+          <strong>Ken Saward</strong> (BS 87)<br>
           <strong>Freeman Thomas</strong> (BS 83)<br>
-          <strong>Franz von Holzhausen</strong> (BS 92)<br>
+          <strong>Franz Von Holzhausen</strong> (BS 92)<br>
           <strong>Jonathan Ward</strong><br>
-          <strong>Geoff Wardle</strong><br>
-          <strong>Jose Wyzsogrod</strong> (BS 96)</p>
+          <strong>Geoff Wardle</strong></p>
         
         <h3><strong>Advisory committee</strong></h3>
         <p><strong>Leslie Kendall</strong><br>

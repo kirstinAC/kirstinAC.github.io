@@ -32,7 +32,7 @@
 			<h2>Application</h2>
 
 
-			<p><a href="pdf/acn_scholarship.pdf" target="_blank">Download the application.</a><br />If you would prefer to have a hardcopy mailed to you, call 626.396.2319.</p>
+			<p><a href="18ASP_Scholarship_App.pdf" target="_blank">Download the application.</a><br />If you would prefer to have a hardcopy mailed to you, call 626.396.2319.</p>
 
 			<p>See the ACN <a href="calendar.jsp">Calendar</a> for specific scholarship deadlines. Note: All scholarship submissions are due in the Public Programs office before 8:30 p.m. on the deadline.</p>
 

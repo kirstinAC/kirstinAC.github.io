@@ -113,11 +113,7 @@
           </tr>
           <tr>
           <td style="padding-top:6px; padding-bottom:6px; ">&nbsp;</td>
-          <td style="padding-top:6px; padding-bottom:6px; border-top:solid 1px #000">ArtCenter Caf&eacute; serving a special lunch menu of Italian, American and French items and refreshments on the patio</td>
-          </tr>
-          <tr>
-          <td style="padding-top:6px; padding-bottom:6px; ">&nbsp;</td>
-          <td style="padding-top:6px; padding-bottom:6px; border-top:solid 1px #000">Refreshments available for purchase in the tented pavilion on the field</td>
+          <td style="padding-top:6px; padding-bottom:6px; border-top:solid 1px #000">The ArtCenter Caf&eacute; is serving a special menu of Italian, American and French  items and refreshments in the tented pavilion on the field and the indoor cafeteria.</td>
           </tr>
           <tr>
           <td style="padding-top:6px; padding-bottom:6px; ">&nbsp;</td>

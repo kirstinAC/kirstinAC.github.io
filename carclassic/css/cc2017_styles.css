@@ -148,14 +148,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
 .button {
     color: #000;
 	border-radius: 20px;
@@ -405,80 +397,115 @@ font-size:13px;
 	padding-right:48px;
 }
 
-/* 
-@media screen and (min-width: 481px){
-	
-.sideBar .menu_item {
-	display:inline-block;
+/* Partner Logos */
+
+#partners {
+      margin: 30px 0;
 }
 
-*/
+
+#partners h3 {
+      line-height: 0; 
+      margin-bottom: 30px;
+} 
+
+.logo {
+      float: left;
+      margin-bottom: 50px;
+}
+
+.logo-one-thrid {
+      float: left;
+      margin-bottom: 20px;
+}
+
 
 @media screen and (min-width: 990px){
 	
-.outerWrapperHome {
-	max-width: 1042px;
-	margin: auto;
-	padding-top: 48px;
-	padding-right: 0px;
-	padding-left: 0px;
-	background-color:#fff;
-}
+	.outerWrapperHome {
+		max-width: 1042px;
+		margin: auto;
+		padding-top: 48px;
+		padding-right: 0px;
+		padding-left: 0px;
+		background-color:#fff;
+	}
 
-.mastHead {
-	padding-bottom: 0px;
-}
+	.mastHead {
+		padding-bottom: 0px;
+	}
 
-.mobileHeader {
-	display:none !important;
+	.mobileHeader {
+		display:none !important;
+	}
+	.wideHeader {
+		display:block !important;
+	}
+		
+	.sideBar {
+		width:250px;
+		float:right;
+		clear:none;
+		margin-top:0px;
+		padding-top:0px;
+		border-top:none !important;
+	}
+	.sideBar .extra {
+		display:block;
+		margin-top:0px;
+		padding-top:0px;
+		border-top:none !important;
+	}
+
+
+	.sideBar .menu_item {
+		font-size: 22px;
+		line-height:30px;
+		margin:0px;
+		display:block;
+	}
+
+	body.previous li.previous a {
+		display:block;
+	}
+
+	.sideBar hr {
+		margin-top:12px;
+		margin-bottom:12px;
+	}
+	.mainContent {
+		max-width:626px;
+		min-width:250px;
+		float:left;
+		margin-bottom:175px;
+	}
+	.footer .extra {
+		display:none;
+	}
+
+	.rightPad {
+		padding-right:0px;
+	}
 }
-.wideHeader {
-	display:block !important;
-}
+/*
+
+
+@media screen and (max-width: 481px){
 	
-.sideBar {
-	width:250px;
-	float:right;
-	clear:none;
-	margin-top:0px;
-	padding-top:0px;
-	border-top:none !important;
-}
-.sideBar .extra {
-	display:block;
-	margin-top:0px;
-	padding-top:0px;
-	border-top:none !important;
-}
+	.logo {
+			float: none;
+			margin-bottom: 10px
+	}
 
+	.logo-one-thrid {
+	      float: none;
+	      margin-bottom: 10px;
+	}
 
-.sideBar .menu_item {
-	font-size: 22px;
-	line-height:30px;
-	margin:0px;
-	display:block;
-}
-
-body.previous li.previous a {
-	display:block;
-}
-
-.sideBar hr {
-	margin-top:12px;
-	margin-bottom:12px;
-}
-.mainContent {
-	max-width:626px;
-	min-width:250px;
-	float:left;
-	margin-bottom:175px;
-}
-.footer .extra {
-	display:none;
-}
-
-.rightPad {
-	padding-right:0px;
-}
+	.sideBar .menu_item {
+	display:inline-block;
+	}
 
 }
+
+*/
