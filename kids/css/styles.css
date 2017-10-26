@@ -1,0 +1,1072 @@
+/*
+font-family:"DIN Next W01 Black";
+font-family:"DIN Next W01 Black Italic";
+font-family:"DIN Next W01 Heavy";
+font-family:"DIN Next W01 Heavy Italic";
+font-family:"DIN Next W01 Bold";
+font-family:"DIN Next W01 Bold Italic";
+font-family:"DIN Next W01 Medium";
+font-family:"DIN Next W01 Medium Italic";
+font-family:"DIN Next W01 Regular";
+font-family:"DIN Next W01 Italic";
+font-family:"DIN Next W01 Light";
+font-family:"DIN Next W01 Light Italic";
+
+font-family:"DIN Next Rounded LT W01 Bold";
+font-family:"DIN Next Rounded LT W01 Light";
+font-family:"DIN Next Rounded LT W01 Medium";
+font-family:"DIN Next Rounded LT W01 Regular";
+*/
+html {
+    overflow-y: scroll;
+}
+body {
+	background-color: #3f9eff;
+	background-image: url(../images/bg_gradient.jpg);
+	background-repeat: repeat-x;
+	font-family: "DIN Next W01 Regular", arial, sans-serif;
+}
+#wrapper {
+	width: 800px;
+	font-size: 12px;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 500px;
+	position:relative;
+	padding-bottom:30px;
+}
+#header {
+	height: 212px;
+}
+#content_bg {
+	background-color: #FFF;
+}
+#content_wrapper {
+	min-height: 500px;
+	width: 740px;
+	padding-right: 30px;
+	padding-left: 30px;
+	clear:both;
+	padding-bottom:20px;
+	padding-top:30px;
+}
+#home #content_wrapper,
+.feature #content_wrapper {
+	padding-top:0px;
+}
+#sign_in_link, #sign_out_link {
+	color: #FFF;
+	background-image: url(../images/sign_in_link_bg.png);
+	background-position: 0px 0px;
+	text-align: center;
+	height: 52px;
+	width: 106px;
+	padding-top: 17px;
+	position: absolute;
+	top: 0px;
+	right: 50px;
+	text-transform: uppercase;
+	display:block;
+	text-decoration:none;
+	z-index:10;
+	font-family: "DIN Next Rounded LT W01 Bold", sans-serif;
+	font-size:15px;
+}
+#sign_in_link:hover, #sign_out_link:hover
+{
+	background-position: 0px -70px;
+	height: 52px;
+	color:#000;
+}
+#home h1 {
+	position: absolute;
+	width: 146px;
+	left: 570px;
+	top: 114px;
+	text-align: center;
+	color: #FFF;
+	z-index:10;
+	font-size: 14px;
+	line-height:15px;
+	font-family: "DIN Next Rounded LT W01 Regular", sans-serif;
+}
+#home h1 strong {
+	font-weight:normal;
+	font-size: 24px;
+	line-height:21px;
+	font-family: "DIN Next Rounded LT W01 Medium", sans-serif;
+}
+#logos {
+	overflow:hidden;
+	padding-top: 10px;
+	width: 532px;
+}
+#logo_art_center {
+	background-image: url(../images/logo_art_center.png);
+	text-indent: -9999px;
+	height: 13px;
+	width: 185px;
+	display:block;
+}
+#logo_kids {
+	background-image: url(../images/logo_kids.png);
+	text-indent: -9999px;
+	height: 142px;
+	width: 532px;
+	margin-top: 20px;
+	background-position: 0px 0px;
+	display:block;
+}
+#logo_kids:hover {
+	background-position: 0px -142px;
+}
+/* Navigation */
+#nav_wrapper {
+	/*text-align:center;*/
+}
+#nav {
+	display:inline-block;
+	list-style-type: none;
+	padding-left: 0px;
+	min-height: 30px;
+	text-align:left;
+	margin-left:30px;
+}
+#nav li.primary {
+	position: relative;
+	float: left;
+//	width: 106px;
+	z-index: 200;
+}
+#nav a.primary {
+	font-family:"DIN Next Rounded LT W01 Bold", sans-serif;
+	font-size:12px;
+	display:block;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+	padding-right: 22px;
+	padding-left: 22px;
+	padding-top: 6px;
+	min-height: 24px;
+}
+#nav a.over {
+	background-color: #6ebf0f;
+	color:#FFF !important;
+}
+/* Primary link formatting for active sections */
+.about #nav a.about, 
+.classes #nav a.classes, 
+.register #nav a.register, 
+.gallery #nav a.gallery, 
+.account #nav a.account, 
+.donate #nav a.donate, 
+.contact #nav a.contact {
+	color: #6ebf0f;
+}
+#nav ul {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+	display: none;
+	z-index:1000;
+}
+#nav ul li {
+	background-color:#6ebf0f;
+}
+#nav ul a {
+	width: 104px;
+	padding-right: 22px;
+	padding-left: 22px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	display:block;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	font-family:"DIN Next W01 Regular", sans-serif;
+	font-size: 12px;
+}
+#nav li.primary:nth-child(5) ul a {
+	width: 104px;
+}
+#nav li.primary:nth-child(7) ul a {
+	width: 98px;
+}
+#nav ul a:hover {
+	background-color:#b6f227;
+	color:#000;
+}
+#home_slideshow_bg {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+#home #calendar_headline {
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	display:block;
+	color:#6ebf0f;
+	text-decoration:none;
+	font-family:"DIN Next Rounded LT W01 Bold", sans-serif;
+	font-size:18px;
+}
+#home #calendar_headline:hover {
+	color:#b6f227;
+}
+#calendar_list {
+	overflow:hidden;
+	padding-bottom:20px;
+}
+#calendar_list dt {
+	float: left;
+	width: 54px;
+	margin-right: 10px;
+}
+#calendar_list dt .day {
+	background-image: url(../images/calendar_day_bg.png);
+	display: block;
+	text-align: center;
+	height: 40px;
+	width: 54px;
+	padding-right:0px;
+	padding-top: 14px;
+	background-repeat: no-repeat;
+	color:#fff;
+	font-family: "DIN Next Rounded LT W01 Bold", sans-serif;
+	font-size:22px;
+}
+#calendar_list dt .month {
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	margin-top: 5px;
+	width: 54px;
+	text-transform:uppercase;
+	font-family: "DIN Next Rounded LT W01 Regular", sans-serif;
+	font-size:20px;
+}
+#calendar_list dd {
+	float: left;
+	width: 72px;
+	font-family: "DIN Next W01 Regular", sans-serif;
+	font-size:12px;
+}
+#calendar_list dd+dt {
+	border-left:dotted 2px #3f9eff;
+	padding-left:6px;
+	margin-left:6px;
+}
+.clear_break {
+	clear:both;
+	line-height:0;
+}
+/* Home Specials */
+#home_specials {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+	border-top:1px solid #fff;
+	overflow:hidden;
+}
+#home_specials li {
+	float:left;
+	width:240px;
+	background-color:#000;
+}
+#home_specials li+li {
+	margin-left:10px;
+}
+#home_specials li a {
+	text-decoration:none;
+}
+#home_specials li h3 {
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:7px;
+	padding-bottom:7px;
+	background-color:#3f9eff;
+	color:#FFF;
+	text-align:center;
+	display:block;
+	text-transform:uppercase;
+	font-family: "DIN Next Rounded LT W01 Medium", sans-serif;
+	font-size:14px;
+}
+#home_specials li h3.over {
+	background-color:#b6f227;
+	color:#000;
+}
+#home_specials li img {
+	display:block;
+}
+/* Footer */
+#footer {
+	padding-top:20px;
+	padding-bottom:20px;
+	clear:both;
+}
+a#facebook {
+	text-indent: -9999px;
+	background-image: url(../images/facebook_logo.png);
+	display: block;
+	height: 19px;
+	width: 20px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	float:left;
+	overflow:hidden;
+}
+a#facebook:hover {
+	background-position: 0px -19px;
+}
+a#credits {
+	text-indent: -9999px;
+	background-image: url(../images/pencil_icon.png);
+	display: block;
+	height: 19px;
+	width: 20px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	float:left;
+	overflow:hidden;
+	margin-left:3px;
+}
+a#credits:hover {
+	background-position: 0px -19px;
+}
+
+
+/* HEADER BACKGROUNDS */
+#background {
+	background-repeat: no-repeat;
+	background-position:center top;
+}
+#home #background {
+	background-image: url(../images/bg_home_header.png);
+}
+#our_mission #background {
+	background-image: url(../images/bg_our_mission_header.png);
+}
+#directors_letter #background {
+	background-image: url(../images/bg_our_mission_header.png);
+}
+#calendar #background {
+	background-image: url(../images/bg_calendar_header.png);
+}
+#open_house #background {
+	background-image: url(../images/bg_open_house_header.png);
+}
+#faculty_bios #background {
+	background-image: url(../images/bg_faculty_bios_header.png);
+}
+#public_programs #background {
+	background-image: url(../images/bg_public_programs_header.png);
+}
+.classes #background {
+	background-image: url(../images/bg_classes_header.png);
+}
+#mars #background {
+	background-image: url(../images/bg_mars_header.png);
+}
+.register #background {
+	background-image: url(../images/bg_register_header.png);
+}
+#gallery #background {
+	background-image: url(../images/bg_gallery_header.png);
+}
+#donate_now #background {
+	background-image: url(../images/bg_donate_header.png);
+}
+.contact #background {
+	background-image: url(../images/bg_contact_header.png);
+}
+
+
+/* SPECIAL BACKGROUNDS */
+#background1,#background2,#background3,#background4, #background5 {
+	position: absolute;
+	background-repeat:no-repeat;
+}
+#home #background1 {
+	background-image: url(../images/bg_home_1.png);
+	width: 89px;
+	height: 167px;
+	left: -89px;
+	top: 660px;
+}
+#our_mission #background1 {
+	background-image: url(../images/bg_our_mission_1.png);
+	width: 800px;
+	height: 387px;
+	left: -550px;
+	top: 457px;
+}
+#our_mission #background2 {
+	background-image: url(../images/bg_our_mission_2.png);
+	width: 131px;
+	height: 263px;
+	left: 800px;
+	top: 377px;
+}
+#directors_letter #background1 {
+	background-image: url(../images/bg_directors_letter_1.png);
+	width: 567px;
+	height: 777px;
+	left: -380px;
+	top: 77px;
+}
+#directors_letter #background2 {
+	background-image: url(../images/bg_our_mission_2.png);
+	width: 131px;
+	height: 263px;
+	left: 800px;
+	top: 377px;
+}
+/*
+#calendar #background1 {
+	background-image: url(../images/bg_calendar_1.png);
+	width: 167px;
+	height: 271px;
+	left: -167px;
+	top: 450px;
+}
+*/
+#calendar #background2 {
+	background-image: url(../images/bg_calendar_2.png);
+	width: 610px;
+	height: 325px;
+	left: 408px;
+	top: 47em;
+}
+#open_house #background1 {
+	background-image: url(../images/bg_open_house_1.png);
+	width: 248px;
+	height: 172px;
+	left: -167px;
+	top: 53em;
+}
+#open_house #background2 {
+	background-image: url(../images/bg_open_house_2b.png);
+	width: 131px;
+	height: 387px;
+	left: 800px;
+	top: 260px;
+}
+
+#open_house #background3 {
+	background-image: url(../images/bg_open_house_2a.png);
+	width: 173px;
+	height: 289px;
+	left: 628px;
+	top: 212px;
+}
+
+#open_house #content_bg {
+//	background-image: url(../images/bg_open_house_2a.png);
+	background-position:right top;
+	background-repeat:no-repeat;
+}
+#faculty_bios #background1 {
+	background-image: url(../images/bg_faculty_bios_1.png);
+	width: 158px;
+	height: 575px;
+	left: -158px;
+	top: 266px;
+}
+#faculty_bios #background2 {
+	background-image: url(../images/bg_faculty_bios_2.png);
+	width: 426px;
+	height: 251px;
+	left: 534px;
+	top: 520px;
+}
+
+#public_programs #background1 {
+	background-image: url(../images/bg_public_programs_1.png);
+	width: 287px;
+	height: 171px;
+	left: 130px;
+	top: 37em;
+}
+#public_programs #content_bg {
+	background-image: url(../images/bg_public_programs_2a.png);
+	background-position:right 60px;
+	background-repeat:no-repeat;
+}
+#public_programs #background2 {
+	background-image: url(../images/bg_public_programs_2b.png);
+	width: 93px;
+	height: 239px;
+	right: -93px;
+	top:295px;
+}
+#public_programs #background3 {
+	background-image: url(../images/bg_public_programs_2c.png);
+	width: 164px;
+	height: 115px;
+	left: 727px;
+	top:419px;
+}
+.classes #background1 {
+	background-image: url(../images/bg_classes_1.png);
+	width: 43px;
+	height: 47px;
+	left: -43px;
+	top:273px;
+}
+.classes #background2 {
+	background-image: url(../images/bg_classes_2.png);
+	width: 101px;
+	height: 476px;
+	right: -74px;
+	top:385px;;
+}
+#catalog #background3 {
+	background-image: url(../images/bg_catalog_1.png);
+	width: 353px;
+	height: 210px;
+	left: -70px;
+	top:47em;
+}
+#mars #background1 {
+	background-image: url(../images/bg_mars_1.png);
+	width: 181px;
+	height: 163px;
+	left: 24px;
+	top: 630px;
+}
+#mars #background4 {
+	background-image: url(../images/bg_mars_2.png);
+	width: 211px;
+	height: 262px;
+	left: 800px;
+	top: 273px;
+}
+.register #background1 {
+	background-image: url(../images/bg_register_1.png);
+	width: 146px;
+	height: 121px;
+	right: -146px;
+	top: 273px;
+}
+.register #background2 {
+	background-image: url(../images/bg_register_2.png);
+	width: 83px;
+	height: 83px;
+	left: -55px;
+	top:330px;
+}
+.register #background3 {
+	background-image: url(../images/bg_register_2.png);
+	width: 83px;
+	height: 83px;
+	right: -120px;
+	top:630px;
+}
+
+.register #background4 {
+	background-image: url(../images/bg_scholarship_4.png);
+	width: 100px;
+	height: 38px;
+	left: 650px;
+	top: 285px;
+}
+
+.register #background5 {
+	background-image: url(../images/bg_scholarship_5.png);
+	width: 244px;
+	height: 144px;
+	left: 526px;
+	top: 487px;
+}
+
+#gallery #background1
+{
+	background-image: url(../images/bg_gallery_1.png);
+	width: 84px;
+	height: 31px;
+	right: -84px;
+	top:270px;
+}
+#gallery #background2
+{
+	background-image: url(../images/bg_register_2.png);
+	width: 83px;
+	height: 83px;
+	left: -55px;
+	top:630px;
+}
+#gallery #background3
+{
+	background-image: url(../images/bg_register_2.png);
+	width: 83px;
+	height: 83px;
+	right: -120px;
+	top:730px;
+}
+
+/*
+#scholarships #background2 {
+	background-image: url(../images/bg_scholarships_1.png);
+	width: 416px;
+	height: 240px;
+	left: -30px;
+	top: 55em;
+}
+*/
+#donate_now #background1 {
+	background-image: url(../images/bg_donate_1.png);
+	width: 179px;
+	height: 87px;
+	left: -140px;
+	top: 273px;
+}
+#donate_now #background2 {
+	background-image: url(../images/bg_donate_2.png);
+	width: 573px;
+	height: 325px;
+	left: -50px;
+	top: 44em;
+}
+.contact #background1 {
+	background-image: url(../images/bg_contact_1.png);
+	width: 64px;
+	height: 65px;
+	left: -64px;
+	top: 273px;
+}
+#contact_us #content_bg {
+	background-position:right 186px;
+	background-repeat:no-repeat;
+}
+#contact_us #background3 {
+	background-image: url(../images/bg_contact_us_1.png);
+	width: 415px;
+	height: 272px;
+	right: -142px;
+	top: 348px;
+}
+#contact_us #background2 {
+	background-image: url(../images/bg_contact_us_2.png);
+	width: 262px;
+	height: 226px;
+	right: -262px;
+	top: 238px;
+}
+#directions #background2 {
+	background-image: url(../images/bg_directions_1.png);
+	width: 262px;
+	height: 226px;
+	right: -262px;
+	top: 238px;
+}
+#special_invite #background3 {
+	background-image: url(../images/bg_special_invite_3.png);
+	width: 353px;
+	height: 210px;
+	left: -70px;
+	top:47em;
+}
+
+
+
+
+
+/* Sub Navigiation */
+.subnav {
+	font-family: "DIN Next W01 Medium", sans-serif;
+	list-style:none;
+	padding-left:0px;
+	margin-left:0px;
+//	margin-top:51px;
+	width:140px;
+	border-bottom:dotted 1px #6ebf0f;
+	float:left;
+}
+#directors_letter .subnav {
+	/* This page has floating element in front of subnav, so subnav needs to be absolute and on top*/
+	position:absolute;
+	z-index:100;
+}
+.subnav li {
+	border-top:dotted 1px #6ebf0f;
+}
+.subnav a {
+	text-transform:uppercase;
+	display:block;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-decoration:none;
+	color:#6ebf0f;
+}
+.subnav a:hover {
+	background-color:#b6f227;
+	color:#000;
+}
+#our_mission .subnav a.our_mission,
+#directors_letter .subnav a.directors_letter,
+#calendar .subnav a.calendar,
+#open_house .subnav a.open_house,
+#faculty_bios .subnav a.faculty_bios,
+#public_programs .subnav a.public_programs,
+#public_programs .subnav a.public_programs,
+#class_descriptions .subnav a.class_descriptions,
+#summer_workshops .subnav a.summer_workshops,
+#family_workshops .subnav a.family_workshops,
+#catalog .subnav a.catalog,
+#how_to_register .subnav a.how_to_register,
+#special_invite .subnav a.special_invite,
+#registration_form .subnav a.registration_form,
+#tuition .subnav a.tuition,
+#scholarships .subnav a.scholarships,
+#policies .subnav a.policies,
+#orientation .subnav a.orientation,
+#mars .subnav a.mars,
+#contact_us .subnav a.contact_us,
+#directions .subnav a.directions
+{
+	background-color:#b6f227;
+	color:#000;
+}
+
+
+/* Secondary */
+#content {
+	margin-left:185px;
+	min-height:400px;
+}
+#content_wrapper h1 {
+	font-family:"DIN Next Rounded LT W01 Medium", sans-serif;
+	font-size:36px;
+	color:#3F9EFF;
+	margin-left:185px;
+	text-transform:uppercase;
+	padding-bottom:10px;
+}
+#content a {
+	color:#67B30E;
+	text-decoration:none;
+}
+#content a:hover {
+	color:#b6f227;
+	text-decoration:underline;
+}
+#content strong,
+#content b
+{
+	font-family:"DIN Next W01 Bold", sans-serif;
+	font-weight:normal;
+}
+#content h1 {
+	margin-left:0px;
+}
+#content h2 {
+	font-family:"DIN Next Rounded LT W01 Medium", sans-serif;
+	font-size:20px;
+	color:#3F9EFF;
+	text-transform:uppercase;
+	margin-top:30px;
+}
+#content h2:first-child {
+	margin-top:0px;
+}
+#content h3 {
+	font-family:"DIN Next Rounded LT W01 Medium", sans-serif;
+	font-size:16px;
+	color:#3F9EFF;
+	text-transform:uppercase;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+#content div + h3 {
+	margin-top:0px;
+}
+#content h3:first-child {
+	margin-top:0px;
+}
+
+#content h3.expandNextContainer {
+	text-decoration:none;
+	color:#67B30E;
+}
+#content h3.expandNextContainer:after {
+    content: " >";
+}
+#content h3.hover {
+	color:#b6f227;
+	text-decoration:underline;
+}
+#content h3.active {
+	color:#67B30E;
+	text-decoration:underline;
+}
+#content h3.active:after {
+    content: " ";
+}
+
+#content h4 {
+	font-family:"DIN Next Rounded LT W01 Bold", sans-serif;
+	font-size:18px;
+	color:#000;
+	margin-top:20px;
+	margin-bottom:0px;
+}
+#content h4:first-child {
+	margin-top:0px;
+}
+
+
+#content p {
+	font-size:16px;
+	line-height:20px;
+	margin-bottom:12px;
+}
+
+.main_image {
+	position:relative;
+	margin-bottom: 15px;
+}
+
+.main_image_bg {
+	width: 555px;
+	height:20px;
+	background-image:url(../images/main_image_bg.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.main_image_bg2 {
+	width: 740px;
+	height:20px;
+	background-image:url(../images/home_slideshow_bg.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+
+#content .intro {
+	font-family:"DIN Next Rounded LT W01 Medium";
+	font-size: 20px;
+	line-height: 26px;
+	margin-bottom:15px;
+}
+#content .intro em {
+	font-family:"DIN Next W01 Medium Italic";
+	font-style:normal;
+}
+#content blockquote {
+	font-family:"DIN Next Rounded LT W01 Medium";
+	font-size: 20px;
+	line-height: 26px;
+	margin-bottom:15px;
+}
+#content cite {
+	display:block;
+	font-family:"DIN Next Rounded LT W01 Regular";
+	font-size: 14px;
+	line-height: 26px;
+}
+
+
+
+
+/* Calendar */
+#calendar #content p {
+	font-size:13px;
+	line-height:18px;
+	margin-bottom:10px;
+}
+
+#calendar #content .calendar_list {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+#calendar #content .calendar_list li {
+	float: left;
+	width: 160px;
+	padding-right: 10px;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #3F9EFF;
+	padding-left: 10px;
+	min-height:400px;
+}
+#calendar #content .calendar_list li.first {
+	padding-left: 0px;
+}
+#calendar #content .calendar_list li.last {
+	border-right-width: 0px;
+}
+#calendar #content .calendar_list h2 {
+	font-family:"DIN Next Rounded LT W01 Bold", sans-serif;
+	font-size:17px;
+	text-transform:uppercase;
+	margin-bottom:0px;
+	margin-top:0px;
+	color:#000;
+}
+#calendar #content .calendar_list dt {
+	font-family:"DIN Next Rounded LT W01 Medium", sans-serif;
+	font-size:15px;
+	padding-top:12px;
+}
+#calendar #content .calendar_list dd strong {
+	font-family:"DIN Next Rounded LT W01 Regular", sans-serif;
+	text-transform:uppercase;
+	color:#3F9EFF;
+}
+
+
+.leftColumn {
+	width:160px;
+	float:left;
+	padding-right:10px;
+}
+.rightColumn {
+	margin-left:185px;
+}
+#catalog .leftColumn {
+	width:180px;
+}
+#catalog .rightColumn {
+	margin-left:195px;
+}
+
+/* Faculty Bios */
+#faculty_list {
+	border-right:dotted 1px #3F9EFF;
+}
+#faculty_list h2 {
+	margin-top:0px;
+	margin-bottom:5px;
+}
+#faculty_list dd+h2 {
+	margin-top:10px;
+}
+
+#faculty_list dt a {
+	font-family:"DIN Next Rounded LT W01 Medium", sans-serif;
+	font-size:13px;
+	color:#000;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#faculty_list dt a:hover,
+#faculty_list dt a.active
+{
+	color:#6ebf0f;
+	text-decoration:underline;
+}
+
+#faculty_list dd {
+	display:none;
+}
+#faculty_content {
+}
+#faculty_content h3 {
+	font-family:"DIN Next Rounded LT W01 Medium", sans-serif;
+	font-size:18px;
+	color:#3F9EFF;
+	text-transform:uppercase;
+	margin-bottom:2px;
+}
+#faculty_content h4 {
+	font-family:"DIN Next Rounded LT W01 Medium", sans-serif;
+	font-size:18px;
+	color:#000;
+	text-transform:uppercase;
+	margin-bottom:2px;
+}
+
+/* Scholarships */
+#scholarships #content #support h4 {
+	color:#3F9EFF;
+	margin-bottom:10px;
+	margin-top: 20px;
+}
+#scholarships #content #support p {
+	color:#3F9EFF;
+}
+
+
+/* Contact */
+#contact_us #content {
+	width:300px;
+}
+
+
+/* Donate */
+#donate_today {
+	font-family:"DIN Next Rounded LT W01 Medium", sans-serif;
+	position:absolute;
+	left:424px;
+	top:53.4em;
+	text-transform:uppercase;
+	z-index:100;
+	text-align:center;
+}
+#donate_today a {
+	color:#FFF;
+	text-decoration:none;
+}
+#donate_today a:hover {
+	text-decoration:underline;
+}
+#donate_today span {
+	display:block;
+	line-height:18px;
+}
+#donate_today .word1 {
+	font-size:20px;
+}
+#donate_today .word2 {
+	font-size:11px;
+}
+#donate_today .word3 {
+	font-size:20px;
+}
+
+
+/* Gallery */
+#gallery #content_wrapper {
+	padding-left:0px;
+}
+#gallery #content {
+	margin-left:0px;
+}
+
+.gallery_caption_wrapper {
+	position:absolute;
+	background-color:#000;
+}
+.gallery_caption_wrapper a {
+	text-decoration:none;
+}
+.gallery_caption {
+	background-color:#6ebf0f; 
+	position:absolute; 
+	bottom:0px; 
+	left:0px; 
+	padding:5px;
+	color:#fff;
+	font-size:12px;
+	text-transform:uppercase;
+	display:none; /* will be shown through javascript */
+}
+.gallery_caption.hover {
+	display:block;
+	text-decoration:none;
+}
+
+

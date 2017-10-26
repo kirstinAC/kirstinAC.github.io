@@ -1,0 +1,109 @@
+body {
+	background-repeat: no-repeat;
+	margin:0px;
+	font-family: "DIN Next W01 Regular", arial, sans-serif;
+}
+#sign_in_page {
+	background-image: url(../images/sign_in_bg.png);
+}
+#password_page,
+#credits_page {
+	margin-left:145px;
+	margin-top:135px;
+	margin-right:60px;
+}
+#password_page {
+	background-image: url(../images/password_bg.png);
+}
+#credits_page {
+	background-image: url(../images/credits_bg.png);
+}
+
+a {
+	color:#67B30E;
+	text-decoration:none;
+}
+a:hover {
+	color:#b6f227;
+	text-decoration:underline;
+}
+
+#sign_in_page h1 {
+	font-family:"DIN Next Rounded LT W01 Medium", sans-serif;
+	font-size:36px;
+	color:#fff;
+	text-transform:uppercase;
+	position:absolute;
+	top:120px;
+	right:62px;
+}
+#sign_in_form {
+	margin-left:150px;
+	margin-top:230px;
+}
+#sign_in_form .inputfield,
+#password_form .inputfield {
+	background-color:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#666;
+	width:250px;
+	height:20px;
+	margin-bottom:5px;
+	border:1px solid #999;
+	padding:2px;
+}
+#password_form .inputfield {
+	width:170px;
+}
+#sign_in_form .inputfield:focus,
+#password_form .inputfield:focus {
+	border-color:#6ebf0f;
+}
+#sign_in_form #submit {
+	margin-top:5px;
+}
+#sign_in_form p {
+	margin-top:15px;
+}
+#sign_in_form h3 {
+	margin-top:5px;
+	font-size:13px;
+}
+#sign_in_form #password {
+	margin-top:5px;
+	font-size:12px;
+}
+
+
+
+#password_form {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+h2 {
+	font-family:"DIN Next Rounded LT W01 Medium", sans-serif;
+	font-size:16px;
+	margin-bottom:2px;
+	color:#3f9eff;
+	text-transform:uppercase;
+}
+p+h2 {
+	margin-top:20px;
+}
+h3 {
+	font-family:"DIN Next W01 Bold", arial, sans-serif;
+	font-size:14px;
+	text-transform:uppercase;
+	margin-top:20px;
+}
+#password_page #section1 {
+	width:190px;
+	float:left;
+	border-right:dotted 1px #3f9eff;
+	margin-right:15px;
+}
+#password_page #submit {
+	clear:both;
+	margin-top:10px;
+}

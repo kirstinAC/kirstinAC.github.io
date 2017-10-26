@@ -207,7 +207,7 @@
 								<td colspan="2"><span class="highlight">Spring 2018 10–14-week courses</span></td>
 							</tr>
 							<tr>
-								<td width="209">Before January 12, 2017</td>
+								<td width="209">Before January 12, 2018</td>
 								<td width="157">100%</td>
 							</tr>
 							<tr>

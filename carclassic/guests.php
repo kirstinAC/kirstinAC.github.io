@@ -38,18 +38,23 @@
         <p><strong>Tom Peters</strong> (BS 80) &ndash; Currently Director of Exterior Design for General Motors and previously responsible for the C6 and C7 (Stingray) Corvette and 5th generation Camaro.</p>
         
         <h3><strong>JUDGES</strong></h3>
-        <p><strong>Dennis Campbell</strong><br>
+        <p><strong>Bradley Arnold</strong> (BS 08)<br>
+          <strong>Dennis Campbell</strong><br>
           <strong>Chris Chapman</strong> (BS 89)<br>
           <strong>Ian Cartabiano</strong> (BS 97)<br>
           <strong>Jason Castriota</strong><br>
+          <strong>Marek Djordjevic</strong> (BS 91)<br>
           <strong>Henrik Fisker</strong> (BS 89)<br>
           <strong>Miguel Galluzzi</strong> (BS 86)<br>
+          <strong>Jason Hill</strong> (BS 90)<br>
           <strong>Karen Hofmann</strong> (BS 97)<br>
           <strong>Kevin Hunter</strong><br>
           <strong>Derek Jenkins</strong> (BS 93)<br>
           <strong>Richard Kim</strong> (BS 04)<br>
+          <strong>John Krsteski</strong><br>
           <strong>Fireball Tim Lawrence</strong> (BS 89)<br>
           <strong>Dave Marek</strong> (BS 87)<br>
+          <strong>Jordan Meadows</strong><br>
           <strong>Jae Min</strong> (BS 94)<br>
           <strong>Chuck Pelly</strong> (BS 58)<br>
           <strong>Tom Peters</strong> (BS 80)<br>
@@ -63,7 +68,9 @@
           <strong>Freeman Thomas</strong> (BS 83)<br>
           <strong>Franz Von Holzhausen</strong> (BS 92)<br>
           <strong>Jonathan Ward</strong><br>
-          <strong>Geoff Wardle</strong></p>
+          <strong>Geoff Wardle</strong><br>
+          <strong>Jose Wyzsogrod</strong> (BS 96)</p>
+
         
         <h3><strong>Advisory committee</strong></h3>
         <p><strong>Leslie Kendall</strong><br>

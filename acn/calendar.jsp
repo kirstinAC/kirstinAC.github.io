@@ -24,17 +24,10 @@
 
 		<h1>Calendar</h1>
 
-		<ul id="inlinelist" class="inlineAccordionList">
-			
-            
-            
-            
-					
+		<ul id="inlinelist" class="inlineAccordionList">     	
 			<li>
-	
-		
-					<header>
-						<h2 class="expandable">Fall 2017</h2>
+				<header>
+					<h2 class="expandable">Fall 2017</h2>
 				</header>
 				<div>
 					<h4 class="calheader">FALL REGISTRATION PERIOD</h4>
@@ -66,42 +59,43 @@
 				</div>
 				<div>				</div>
 			</li>	
+			<li>
 			<header>
-						<h2 class="expandable">Spring 2018</h2>
-				</header>
-				<div>
-					<h4 class="calheader">SPRING REGISTRATION PERIOD</h4>
-					<p class="calinfo">November 27 - January 12</p>
-					<h4 class="calheader">SCHOLARSHIP DEADLINE</h4>
-					<p class="calinfo">November 30</p>
-					<h4 class="calheader">WINTER BREAK - campus closed</h4>
-					<p class="calinfo">December 22 - January 2</p>
-					<h4 class="calheader">MARTIN LUTHER KING, JR. - campus closed</h4>
-					<p class="calinfo">January 15</p>
-					<h4 class="calheader">SPRING CLASSES BEGIN</h4>
-					<p class="calinfo">January 16</p>
-					<h4 class="calheader">LATE REGISTRATION STARTS<br/>(Additional $50 per course late fee applies)</h4>
-					<p class="calinfo">January 16</p>
-					<h4 class="calheader">LAST DAY TO ADD A CLASS</h4>
-					<p class="calinfo">January 19</p>
-					<h4 class="calheader">PRESIDENTS' DAY - Classes Meet as Scheduled</h4>
-					<p class="calinfo">February 19</p>
-                    <h4 class="calheader">LAST DAY TO DROP A CLASS</h4>
-					<p class="calinfo">March 2</p>
-					<h4 class="calheader">SUMMER REGISTRATION BEGINS</h4>
-                    <p class="calinfo">April 9                    </p>
-                    <h4 class="calheader">SPRING EXPERIENCE ACN</h4>
-                    <p class="calinfo">APRIL 16, 17 + 18                    </p>
-                    <h4 class="calheader">SPRING CLASSES END</h4>
-                    <p class="calinfo">April 21</p>
-                    <h4 class="calheader">SUMMER CLASSES BEGIN</h4>
-                    <p class="calinfo">May 14</p>
-	
+				<h2 class="expandable">Spring 2018</h2>
+			</header>
+			<div>
+				<h4 class="calheader">SPRING REGISTRATION PERIOD</h4>
+				<p class="calinfo">November 27 - January 12</p>
+				<h4 class="calheader">SCHOLARSHIP DEADLINE</h4>
+				<p class="calinfo">November 30</p>
+				<h4 class="calheader">WINTER BREAK - campus closed</h4>
+				<p class="calinfo">December 22 - January 2</p>
+				<h4 class="calheader">MARTIN LUTHER KING, JR. - campus closed</h4>
+				<p class="calinfo">January 15</p>
+				<h4 class="calheader">SPRING CLASSES BEGIN</h4>
+				<p class="calinfo">January 16</p>
+				<h4 class="calheader">LATE REGISTRATION STARTS<br/>(Additional $50 per course late fee applies)</h4>
+				<p class="calinfo">January 16</p>
+				<h4 class="calheader">LAST DAY TO ADD A CLASS</h4>
+				<p class="calinfo">January 19</p>
+				<h4 class="calheader">PRESIDENTS' DAY - Classes Meet as Scheduled</h4>
+				<p class="calinfo">February 19</p>
+                <h4 class="calheader">LAST DAY TO DROP A CLASS</h4>
+				<p class="calinfo">March 2</p>
+				<h4 class="calheader">SUMMER REGISTRATION BEGINS</h4>
+                <p class="calinfo">April 9                    </p>
+                <h4 class="calheader">SPRING EXPERIENCE ACN</h4>
+                <p class="calinfo">APRIL 16, 17 + 18</p>
+                <h4 class="calheader">SPRING CLASSES END</h4>
+                <p class="calinfo">April 21</p>
+                <h4 class="calheader">SUMMER CLASSES BEGIN</h4>
+                <p class="calinfo">May 14</p>
 				</div>
-				<div>				</div>
-            
-            			<header>
-						<h2 class="expandable">Summer 2018</h2>
+				<div></div>
+            </li>
+            <li>			
+            	<header>
+					<h2 class="expandable">Summer 2018</h2>
 				</header>
 				<div>
 					<h4 class="calheader">SUMMER REGISTRATION PERIOD</h4>
@@ -121,17 +115,17 @@
 					<h4 class="calheader">INDEPENDENCE DAY - campus closed</h4>
 					<p class="calinfo">July 4</p>
 					<h4 class="calheader">FALL REGISTRATION BEGINS</h4>
-                    <p class="calinfo">August 13                    </p>
+                    <p class="calinfo">August 13</p>
                     <h4 class="calheader">SUMMER EXPERIENCE ACN</h4>
-                    <p class="calinfo">August 13, 14 + 15                    </p>
+                    <p class="calinfo">August 13, 14 + 15</p>
                     <h4 class="calheader">SUMMER CLASSES END</h4>
                     <p class="calinfo">August 18</p>
                     <h4 class="calheader">FALL CLASSES BEGIN</h4>
                     <p class="calinfo">September 10</p>
 	
 				</div>
-				<div>				</div>
-            
+				<div></div>
+            </li>
 		</ul>
 
 		</div><!--end center column-->
@@ -143,20 +137,20 @@
 				<h2>Current Dates</h2>
 
 				<div class="featuredate">
-				<h3>08.14</h3>
-				<p class="event">FALL REGISTRATION BEGINS</p>
+				<h3>11.27</h3>
+				<p class="event">SPRING REGISTRATION BEGINS</p>
 				<p class="italic"></p>
 				</div>
 
 				<div class="featuredate">
-				<h3>08.14 - 08.16</h3>
+				<h3>12.11 - 12.13</h3>
 				<p class="event">EXPERIENCE ACN</p>
 				<p class="italic"></p>
 				</div>
 
 				<div class="featuredate lastdate">
-				<h3>09.11</h3>
-				<p class="event">FALL CLASSES BEGIN</p>
+				<h3>01.16</h3>
+				<p class="event">SPRING CLASSES BEGIN</p>
 				<p class="italic"></p>
 				</div>
 

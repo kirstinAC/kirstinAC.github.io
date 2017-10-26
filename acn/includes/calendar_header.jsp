@@ -3,8 +3,8 @@
 <div id="date01" class="col mblhide">
 
 	<div id="datewrap01">
-	<h2>08.14</h2>
-		<p class="event">FALL REGISTRATION BEGINS</p>
+	<h2>11.27</h2>
+		<p class="event">SPRING REGISTRATION BEGINS</p>
 		<p><a href="calendar.jsp">more calendar events</a></p>
 	</div><!--end datewrap 01-->
 
@@ -17,8 +17,8 @@
 <div id="date02" class="col mblhide">
 
 	<div id="datewrap02">
-		<h2>09.11</h2>
-		<p class="event">FALL CLASSES BEGIN</p>
+		<h2>01.16</h2>
+		<p class="event">SPRING CLASSES BEGIN</p>
 		<a href="calendar.jsp">more calendar events</a>
 	</div>
 

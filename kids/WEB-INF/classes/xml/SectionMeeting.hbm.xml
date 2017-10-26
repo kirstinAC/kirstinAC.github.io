@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="com.clientviews.pagecontrol.SectionMeeting" table="V_SECTION_MEETING">
+		<composite-id class="com.clientviews.pagecontrol.SectionMeeting" mapped="true">
+	        <key-property name="termId" column="TERM_ID" />
+	        <key-property name="secName" column="SEC_NM"/>
+	        <key-property name="secId" column="SEC_ID"/>
+	        <key-property name="dayOfWeek" column="DAY_OF_WEEK"/>
+	        <key-property name="location" column="LOCATION"/>
+	        <key-property name="startDate" column="START_DATE"/>
+	        <key-property name="startTime" column="START_TIME"/>
+	        <key-property name="endDate" column="END_DATE"/>
+	        <key-property name="endTime" column="END_TIME"/>
+	        <key-property name="credits" column="SEC_CREDITS"/>
+		</composite-id>        
+
+	    <property name="building" column="BUILDING"/>
+	    <property name="room" column="ROOM"/>
+
+    </class>
+    
+</hibernate-mapping>

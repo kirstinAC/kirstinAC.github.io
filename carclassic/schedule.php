@@ -65,7 +65,7 @@
     <td style="padding-top:6px; padding-bottom:6px; border-top:solid 1px #000">Meet the Designers: Sasha Selipanov in the Hyundai and Kia Innovation Lab</td>
     </tr>
     <tr>
-    <td style="padding-top:6px; padding-bottom:6px; border-top:solid 1px #000">3:45 p.m.</td>
+    <td style="padding-top:6px; padding-bottom:6px; border-top:solid 1px #000">3:30 p.m.</td>
     <td style="padding-top:6px; padding-bottom:6px; border-top:solid 1px #000">Awards ceremony with Barry Meguiar</td>
     </tr>
     <tr>

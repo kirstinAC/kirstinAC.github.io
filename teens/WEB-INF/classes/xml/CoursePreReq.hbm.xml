@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="com.clientviews.pagecontrol.CoursePreReq" table="V_COURSE_PREREQ">
+        <id name="key" column="COURSE_ID">
+            <generator class="native"/>
+        </id>
+	    <property name="preReq" column="COURSE_PREREQ"/>
+	    <property name="lineNo" column="LINE#"/>
+    </class>
+    
+</hibernate-mapping>

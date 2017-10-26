@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="com.clientviews.pagecontrol.Course" table="V_COURSE">
+        <id name="key" column="COURSE_ID">
+            <generator class="native"/>
+        </id>
+	    <property name="name" column="COURSE_NAME"/>
+	    <property name="title" column="COURSE_TITLE"/>
+	    <property name="subject" column="COURSE_SUBJECT"/>
+	    <property name="status" column="COURSE_STATUS"/>
+	    <property name="type" column="COURSE_SCHEDULE_TYPE"/>
+	    <property name="credits" column="COURSE_CREDITS"/>
+	    <property name="weeks" column="COURSE_NO_WEEKS"/>
+	    
+    </class>
+    
+</hibernate-mapping>

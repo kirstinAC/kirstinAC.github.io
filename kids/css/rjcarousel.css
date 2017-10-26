@@ -1,0 +1,39 @@
+#rjcarousel_wrapper {
+	overflow: hidden;
+	height:600px;
+	width:800px;
+}
+#rjcarousel_belt {
+	position: relative;
+}
+#rjcarousel_wrapper img {
+	/*position: absolute;*/
+}
+#backward_button {
+	position:absolute;
+	top:400px;
+	left:-65px;
+	width:65px;
+	height:129px;
+	background-image:url(../images/gallery_backward.png); 
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+#backward_button:hover {
+	background-position:0px -129px;
+	cursor:pointer;
+}
+#forward_button {
+	position:absolute;
+	top:400px;
+	right:-65px;
+	width:65px;
+	height:129px;
+	background-image:url(../images/gallery_forward.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+#forward_button:hover {
+	background-position:0px -129px;
+	cursor:pointer;
+}

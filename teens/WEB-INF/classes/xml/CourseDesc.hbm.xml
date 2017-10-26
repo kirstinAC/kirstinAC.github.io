@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="com.clientviews.pagecontrol.CourseDesc" table="V_COURSE_DESCRIPTION">
+        <id name="key" column="COURSE_ID">
+            <generator class="native"/>
+        </id>
+	    <property name="desc" column="COURSE_DESC"/>
+	    <property name="lineNo" column="LINE#"/>
+    </class>
+    
+</hibernate-mapping>

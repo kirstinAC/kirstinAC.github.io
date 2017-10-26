@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="com.clientviews.pagecontrol.FacultyEducation" table="V_EXTERNAL_BIO_EDUCATION">
+		<composite-id class="com.clientviews.pagecontrol.FacultyEducation" mapped="true">
+	        <key-property name="key" column="BIO_ID" />
+	        <key-property name="order" column="SORT_ORDER"/>
+		</composite-id>        
+        
+	    <property name="degree" column="DEGREE"/>
+	    <property name="school" column="SCHOOL"/>
+	    <property name="year" column="YEAR"/>
+	    <property name="major" column="MAJOR"/>
+    </class>
+    
+</hibernate-mapping>

@@ -43,27 +43,40 @@
                 <h3>Media and Promotional Partners</h3>
                 <div style="float: left; padding: 15px 40px 15px 0; vertical-align: top;"><a href="http://www.arroyomonthly.com/" target="_blank"><img src="images/sponsors/arroyo_black.png"  height="40"  alt="Arroyo Monthly" ></a></div>
                 <div style="float: left; padding: 21px 40px 14px 0; vertical-align: middle;"><a href="http://autoweek.com/" target="_blank"><img src="images/sponsors/autoweek-logo-2017.png" alt="Auto Week" height="28" alt="Auto Week" ></a></div>
-                <div style="float: left; padding: 16px 0 14px 0; vertical-align: middle;"><a href="http://www.kpcc.org/" target="_blank"><img src="images/sponsors/kpcc.png" width="" height="40" alt="KPCC" style="border:none;" ></a></div>
+                <div style="float: left; padding: 16px 0 14px 0; vertical-align: middle;"><a href="http://www.garagestylemagazine.com/" target="_blank"><img src="images/sponsors/garage-style.png" width="" height="40" alt="Garage Style Magazine" style="border:none;" ></a></div>
             </div>
             <div style="clear: both;">
+                <div style="float: left; padding: 16px 40px 14px 0; vertical-align: middle;"><a href="http://www.kpcc.org/" target="_blank"><img src="images/sponsors/kpcc.png" width="" height="40" alt="KPCC" style="border:none;" ></a></div>
                 <div style="float: left; padding: 10px 40px 25px 0; vertical-align: middle;"><a href="https://www.pasadenaweekly.com/" target="_blank"><img src="images/sponsors/pasadena-weekly-160px.png" alt="Pasadena Weekly" height="40"></a></div>
-                <div style="float: left; padding: 10px 40px 25px 0; vertical-align: middle;"><a href="http://www.petrolicious.com/" target="_blank"><img src="images/sponsors/petrolicious_160px.png" alt="Petrolicious" height="40" ></a></div>
+                <div style="float: left; padding: 10px 0 25px 0; vertical-align: middle;"><a href="http://www.petrolicious.com/" target="_blank"><img src="images/sponsors/petrolicious_160px.png" alt="Petrolicious" height="40" ></a></div>
+                
+            <div style="clear: both;">  
                 <div style="float: left; padding: 10px 0 25px 0; vertical-align: middle;"><a href="http://www.vintagemotorsport.com/" target="_blank"><img src="images/sponsors/vintage-motorsport_bw-53x211px.png" alt="Vintage Motorsport" height="40"></a></div>
                 </div>
+            </div>
                 <div style="padding-bottom: 0; clear:both;">
                 <p>Autobooks-Aerobooks  |  Innovate Pasadena  |  L.A. Auto Show<br />Motor Press Guild  |  The Petersen Automotive Museum</p>
             </div>
 
+            <div>
+                <h3>Premier Patrons</h3>
+                <p><strong>Bruce Heavin</strong> (BFA 93) <strong>and Lynda Weinman</strong></p>
+            </div>
             <div>
                 <h3>Patrons</h3>
                 <p><strong>Ron and Mary Bension</strong><br>
                     <strong>Linda and Douglas Boyd</strong> (BS 66)<br>
                 <strong>Paul and Sherrill Colony</strong><br>
                 <strong>Hitter Family Foundation</strong><br>
+                <strong>Seiichiro Steve Kita</strong><br>
                 <strong>Richard Kenneth Law</strong> (MS 58)<br>
                 <strong>Gary Medley</strong><br>
+                <strong>Jennifer Murphy</strong><br>
+                <strong>Ben and Judy Reiling</strong><br>
                 <strong>Lawrence D. Rodgers</strong> (BS 77)<br>
-                <strong>Jerry F. Rosenstock</strong></p>
+                <strong>Jerry F. Rosenstock</strong><br>
+                <strong>David Sydorick</strong><br>
+                <strong>Alyce and Warren Williamson</strong></p>
             </div>
 
             <hr />

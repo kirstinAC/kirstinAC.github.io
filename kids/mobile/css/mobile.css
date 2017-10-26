@@ -1,0 +1,89 @@
+.ui-title {
+    margin-left: 26% !important;
+    width: 50%;
+}
+.ui-btn-inner {
+    padding-left: 40px;
+}
+.ui-li .ui-btn-inner a.ui-link-inherit {
+    padding-bottom: 0.7em;
+    padding-right: 30px;
+    padding-top: 0.7em;
+}
+.ui-content {
+    background: none repeat scroll 0 0 transparent;
+}
+.ui-li-aside {
+    width: 20% !important;
+}
+ul.copy-divider {
+    margin: 20px -15px 0 !important;
+}
+h2#banner {
+    background: url("/kids/images/logo_kids.png") no-repeat scroll left 10px transparent;
+    height: 284px;
+    margin: -10px auto -150px;
+    text-indent: -9999px;
+    width: 320px;
+}
+.landscape h2#banner {
+    background: url("/kids/images/logo_kids.png") no-repeat scroll left 10px transparent;
+    height: 290px;
+    margin: -10px auto -175px;
+    text-indent: -9999px;
+    width: 480px;
+}
+h2 {
+    font-size: 20px;
+    margin: 0;
+}
+.ui-li-icon {
+    top: 0.4em !important;
+}
+.ui-li-has-icon .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-icon {
+    padding-left: 47px;
+}
+p.intro {
+    margin-bottom: 30px !important;
+}
+//.ui-listview-filter {
+//    margin-top: 20px;
+//}
+.ui-grid-b {
+    font-weight: normal;
+}
+.ui-btn-up-e {
+    border: medium none #000000 !important;
+}
+.ui-btn-hover-e {
+    border: medium none red;
+}
+ui-btn-down-e {
+    background: none repeat scroll 0 0 green;
+    border: medium none green;
+}
+.ui-li-thumb {
+    top: 21px;
+}
+#about-artcenter {
+    background: url("/kids/images/logo_kids.png") no-repeat scroll left top transparent;
+    height: 50px;
+    margin: 0 auto;
+    text-indent: -5000px;
+    width: 254px;
+}
+#event h1 {
+    text-transform: capitalize;
+}
+#featured .ui-li-thumb, #event .ui-li-thumb, #today .ui-li-thumb {
+    max-height: 80px;
+    top: 1px;
+}
+
+.nav-glyphish .ui-btn .ui-btn-inner { padding-top: 30px !important; background: #3F9EFF; }
+.nav-glyphish .ui-btn .ui-icon { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: none !important; border-radius: none !important; }
+#n_mission .ui-icon { background:  url(/kids/mobile/images/glyphish-icons/112-group.png) 50% 50% no-repeat;  }
+#n_email .ui-icon { background:  url(/kids/mobile/images/glyphish-icons/18-envelope.png) 50% 50% no-repeat;   }
+#n_open .ui-icon { background:  url(/kids/mobile/images/glyphish-icons/53-house.png) 50% 50% no-repeat;   }
+#n_contact .ui-icon { background:  url(/kids/mobile/images/glyphish-icons/32-iphone.png) 50% 50% no-repeat; }
+#n_mars .ui-icon { background:  url(/kids/mobile/images/glyphish-icons/82-dog-paw.png) 50% 50% no-repeat;   }
