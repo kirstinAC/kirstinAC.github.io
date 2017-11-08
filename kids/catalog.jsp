@@ -21,10 +21,10 @@
 				</ul>
 				<div id="content">
 					<div class="leftColumn">
-						<p><a href="/pdf/artcenter-kids-2017-2018-catalog.pdf" target=newwindow>Download our most recent catalog in PDF format.</a></p> 
-						<p><a href="https://artcenter.hobsonsradius.com/ssc/iform/EC7B71zx67020x670c3N.ssc" target="_catalog">Request a printed catalog.</a></p> 
+						<p><a href="pdf/KIDS_Catalog.pdf" target="newwindow">Download our most recent catalog in PDF format.</a></p>
+						<p><a href="http://bit.ly/2iU7rMh" target="_blank">Request a printed catalog.</a></p> 
 					</div>
-					<div class="rightColumn"><img src="/images/artcenter-kids-2017-2018-catalog-thumbnail" width="244" height="353" alt="ArtCenter For Kids Catalog 2017-2018" />
+					<div class="rightColumn"><img src="images/kids_catalog_th.jpg" width="244" height="353" alt="ArtCenter For Kids Catalog 2017-2018" />
 					  <form id="form1" name="form1" method="post" action="">
 				      </form>
 					</div>

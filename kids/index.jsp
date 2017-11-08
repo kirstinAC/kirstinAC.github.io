@@ -14,7 +14,7 @@
 
 	<%@ include file="/includes/header.jsp" %>
 
-		<h1><strong>Grades <br />4&#8211;8</strong> <br />Classes in Creativity, Innovation &amp; <br />Visual Literacy</h1>
+		<h1><strong>Grades <br />4&#8211;8</strong> <br />Classes in Creativity, Innovation & <br />Visual Literacy</h1>
 		<div id="content_bg">
 
 			<%@ include file="/includes/nav.jsp" %>
@@ -24,22 +24,33 @@
 				<%@ include file="/includes/home_stepcarousel.jsp" %>
 
 				<a href="calendar.jsp" id="calendar_headline">2017-2018 Calendar</a>
+
 				<dl id="calendar_list">
-					<dt><span class="day">10</span> <span class="month">Dec</span></dt>
+					<dt>
+						<span class="day">10</span> 
+						<span class="month">Dec</span>
+					</dt>
 					<dd>Fall classes end<br />
-						<span style="display:block; margin-top:7px;">Open House<br/>3:30pm</span></dd>
-					<dt><span class="day">29</span> <span class="month">Jan</span></dt>
+						<span>Open House<br/>
+						3:30pm</span>
+					</dd>
+					<dt>
+						<span class="day">29</span> 
+						<span class="month">Jan</span>
+					</dt>
 					<dd>Spring registration begins</dd>
-					<dt><span class="day">01</span> <span class="month">Feb</span></dt>
+					<dt>
+						<span class="day">01</span> 
+						<span class="month">Feb</span>
+					</dt>
 					<dd>Deadline to apply for Spring scholarships</dd>
-					<dt><span class="day">25</span> <span class="month">Feb</span></dt>
+					<dt>
+						<span class="day">25</span> 
+						<span class="month">Feb</span>
+					</dt>
 					<dd>Spring classes begin</dd>					
 				</dl>
-                
-                
 
-                
-                
 				<ul id="home_specials">
 					<li><a href="scholarships.jsp"><img src="images/homepage_specials/scholarships.jpg" width="240" height="145" />
 						<h3>Apply for Scholarship</h3>
