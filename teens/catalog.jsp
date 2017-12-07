@@ -24,8 +24,8 @@
 	<div id="content_wrapper">
 		<div id="content">
 		
-			<p><a href="/teens/pdf/teen-catalog-2017-2018.pdf" target="newwindow"><img src="/images/teens_catalog_th.jpg" width="244" height="354" style="border:none;" alt="ArtCenter for Teens 2017-2018 Catalog" /></a>
-			  <embed src="teen-catalog-2017-2018.pdf" width="32" height="32"></embed>
+			<p><a href="/teens/pdf/TEENS_Catalog.pdf" target="_catalog"><img src="images/teens_catalog_th.jpg" width="244" height="354" style="border:none;" alt="ArtCenter for Teens 2017-2018 Catalog"></a>
+			  <embed src="teen-catalog-2017-2018.pdf" width="32" height="32" internalinstanceid="3">
 			</p>
 			<jsp:setProperty name="resource" property="key" value="CatalogContentText" /><jsp:getProperty name="resource" property="value" />		
 			

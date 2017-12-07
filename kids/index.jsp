@@ -27,14 +27,6 @@
 
 				<dl id="calendar_list">
 					<dt>
-						<span class="day">10</span> 
-						<span class="month">Dec</span>
-					</dt>
-					<dd>Fall classes end<br />
-						<span>Open House<br/>
-						3:30pm</span>
-					</dd>
-					<dt>
 						<span class="day">29</span> 
 						<span class="month">Jan</span>
 					</dt>
@@ -48,7 +40,15 @@
 						<span class="day">25</span> 
 						<span class="month">Feb</span>
 					</dt>
-					<dd>Spring classes begin</dd>					
+					<dd>Spring classes begin</dd>	
+					<dt>
+						<span class="day">15</span> 
+						<span class="month">APR</span>
+					</dt>
+					<dd>Spring classes end<br />
+						<span>Open House<br/>
+						3:30pm</span>
+					</dd>				
 				</dl>
 
 				<ul id="home_specials">
