@@ -1,0 +1,319 @@
+html { 
+	min-height: 100%; 
+	margin-bottom: 1px; 
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font: 10pt Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+}
+#wrapper {
+	width: 900px;
+	background-color: #FFFFFF;
+	
+}
+#header {
+	height: 180px;
+	background-image: url(../images/sit_dbl_masthead.jpg);
+	background-repeat: no-repeat;
+	background-color: #FFE612;
+	font-size: 85%;
+
+}
+
+
+
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/flyout2.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the assocaited (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+.menu {
+	z-index:1000;
+	font-size:11px; /* this page only */
+	width: 200px;
+	position: absolute;
+	font-weight: bold;
+	left: 0px;
+	top: 180px;
+	color: #000;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.menu h1 {
+	font-size: 11px;
+	margin-left: 10px;
+	margin-right: 6px;
+	margin-top: 72px;
+	margin-bottom: 0px;
+}
+.menu p {
+	font-weight: normal;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+
+
+.menu h2 {
+	font-size: 12px;
+	margin-top: 6px;
+	margin-left: 10px;
+	margin-bottom: 2px;
+}
+
+
+/* remove all the bullets, borders and padding from the default list styling */
+.menu ul {
+padding:0;
+margin:0;
+list-style-type:none;
+width:200px;
+}
+/* hack for IE5.5 */
+* html .menu ul {margin-left:-16px; ma\rgin-left:0;}
+/* position relative so that you can position the sub levels */
+.menu li {
+position:relative;
+background:#ffffff;
+height:26px;
+}
+
+/* get rid of the table */
+.menu table {position:absolute; border-collapse:collapse; top:0; left:0; z-index:100; font-size:1em;}
+/* style the links */
+.menu li a , .menu li a:visited {
+	display:block;
+	text-decoration:none;
+	height:25px;
+	line-height:25px;
+	width:199px;
+	color:#000;
+	text-indent:10px;
+	background-image: url(../images/yellow_gradient_right.jpg);
+	background-repeat: repeat-y;
+}
+/* hack for IE5.5 */
+* html .menu li a , * html .menu li a:visited {
+	width:199px;
+	w\idth:199px;
+	color: #333333;
+	background-image: url(../images/yellow_gradient_right.jpg);
+	background-repeat: repeat-y;
+}
+/* style the link hover */
+* html .menu li a:hover {
+	color: #D50063;
+	background-color: #FFFFFF;
+	background-image: none;
+}
+
+.menu :hover > a {
+	color: #D50063;
+	background-color: #FFF;
+	background-image: none;
+}
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.menu ul ul {
+visibility:hidden;
+position:absolute;
+top:0;
+left:200px; 
+}
+/* make the second level visible when hover on first level list OR link */
+.menu ul li:hover ul,
+.menu ul a:hover ul {
+visibility:visible;
+}
+
+/* keep the third level hidden when you hover on first level list OR link */
+.menu ul :hover ul ul{
+visibility:hidden;
+}
+/* keep the fourth level hidden when you hover on second level list OR link */
+.menu ul :hover ul :hover ul ul{
+visibility:hidden;
+}
+/* make the third level visible when you hover over second level list OR link */
+.menu ul :hover ul :hover ul{ 
+visibility:visible;
+}
+/* make the fourth level visible when you hover over third level list OR link */
+.menu ul :hover ul :hover ul :hover ul { 
+visibility:visible;
+}
+.menu .contact a {
+	color: #000;
+}
+.menu .contact a:hover {
+	color: #D50063;
+	background-color: none;
+}
+
+
+
+
+#footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	vertical-align: bottom;
+	width: 876px;
+	padding: 8px 12px;
+	background-color: #FFF;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #000;
+}
+#contentArea {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.4em;
+	color: #000;
+	position: relative;
+	margin-left: 200px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	min-height: 500px;
+	margin-top: 30px;
+}
+
+#contentArea h1 {
+	margin-top: 0px;
+	margin-bottom: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 1.25em;
+	color: #D50063;
+	font-weight: normal;
+}
+#contentArea h4 {
+	font-size: 13px;
+	margin-top: 0.5em;
+	margin-bottom: 0.25em;
+}
+#contentArea h2 {
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+	font: bold 16px Arial, Helvetica, sans-serif;
+}
+#contentArea h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	margin-bottom: 4px;
+	line-height: 110%;
+	margin-top: 0em;
+}
+#contentArea p {
+	margin-top: 0px;
+	max-width:600px;
+	margin-bottom: 15px;
+}
+#contentArea ul {
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+#contentArea a {
+	color: #000;
+}
+#contentArea a:hover {
+	color: #D50063;
+}
+
+#contentArea a:link, #contentArea a:visited {
+}
+#contentArea a:hover, #contentArea a:visited:hover {
+	text-decoration: underline;
+}
+#contentArea .caption {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	line-height: 130%;
+	width: 280px;
+}
+.quote {
+	font-weight: bold;
+	margin-bottom: 6px !important;
+}
+.attribution {
+	margin: 0px !important;
+}
+.yellowBox {
+	padding: 12px;
+	background-color: #FDE72D;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#sidebar {
+	float: right;
+	width: 180px;
+	position: relative;
+	margin-left: 40px;
+	padding-bottom: 12px;
+	padding-left: 20px;
+	margin-bottom: 40px;
+	background-image: url(../images/yellow_gradient_left.jpg);
+}
+#sidebar h3 {
+	font-weight: bold;
+	color: #D50063;
+	margin: 0px;
+	padding-top: 12px;
+	padding-left: 7px;
+}
+#sidebar h1 {
+	color: #D50063;
+	font-size: 18px;
+	line-height: 1.2em;
+	margin: 8px;
+	font-weight: bold;
+}
+#sidebar h2 {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 8px 8px 12px;
+}
+
+
+
+
+#newsArea {
+	background-color: #FFCC00;
+	width: 200px;
+	line-height: 140%;
+}
+
+
+#newsArea h2 {
+	margin: 0px 0px 8px;
+	color: #333333;
+	padding-left: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	font-size: 125%;
+}
+#newsArea p {
+	margin: 8px;
+	font-size: 90%;
+}
+.quoteBox {
+	background-color: #897866;
+	padding: 12px;
+	margin-right: 240px;
+}
+.quoteBox .quote {
+	color: #FFFFFF;
+}
+.small {
+	font-size: 80%;
+	color: #666;
+}

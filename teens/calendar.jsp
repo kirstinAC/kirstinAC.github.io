@@ -8,9 +8,8 @@
 <title><jsp:setProperty name="resource" property="key" value="PageTitle_Calendar" /><jsp:getProperty name="resource" property="value" /> | <jsp:setProperty name="resource" property="key" value="PageTitle_ArtCenterForTeens" /><jsp:getProperty name="resource" property="value" /></title>
 <%@ include file="/includes/head.jsp" %>
 </head>
-<body id="calendar" class="about <jsp:setProperty name="resource" property="key" value="BodyClass"/>">
+<body id="calendar" class="about <jsp:setProperty name="resource" property="key" value="BodyClass" /><jsp:getProperty name="resource" property="value" />">
 
-<embed src="2017-2018-Teens-Reg-Form.pdf" width="32" height="32"></embed>
 <div id="wrapper">	
 	<%@ include file="/includes/header.jsp" %>
 	<%@ include file="/includes/sidebar.jsp" %>
@@ -26,103 +25,6 @@
 	<div id="content_wrapper">
 		<div id="content">
 			
-
-			<br class="clear_break" />
-			
-			
-            
- 
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-		
-
-		           
-            
-            
-            
-            
-            		</article>
-		
-			<br class="clear_break" />
-			
-			<article class="m_fall">
-			<h3 class="expandNextContainer">Fall 2017</h3>
-			<div>
-				<div class="panel">
-					<p><span class="day">28</span> <span class="month">Aug</span></p>
-					<h3>Registration Period</h3>
-					<em>Registration Period:<br/>Aug 28 &#8211; Sep 29</em>
-				</div>
-                
-                
-                
-                
-                
-				<div class="panel">
-					<p><span class="day">31</span> <span class="month">Aug</span></p><h3>Deadline to Apply for Scholarship</h3>
-				</div>
-                
-                
-                
-				<div class="panel">
-					<p><span class="day">30</span> <span class="month">Sep</span></p>
-					<h3>Classes begin</h3>
-					<em>Late Registration</em>
-				</div>
-                
-                
-                
-                
-                				<div class="panel">
-					<p><span class="day">3</span> <span class="month">Nov</span></p>
-					<h3>Last Day to Drop Classes</h3>
-				</div>
-                
-                
-                
-
-                
-                
-                
-				<div class="panel">
-					<p><span class="day">25</span> <span class="month">Nov</span></p>
-					<h3>Holiday</h3>
-					<em>No Classes</em>
-				</div>	
-                
-                
-  
-                
-   
-                
-                
-				<div class="panel">
-					<p><span class="day">9</span> <span class="month">Dec</span></p>
-					<h3>Classes End</h3>
-					<em>Open House</em>
-				</div>			
-			</div>
-			</article>
-			
-			<br class="clear_break" />		
-			
-            
-            
-            
-            </article>
-		
-			
 			<article class="m_spring">
 			<h3 class="expandNextContainer">Spring 2018</h3>
 			<div>
@@ -131,47 +33,24 @@
 					<h3>Registration Period</h3>
 					<em>Registration Period:<br/>Jan 8 &#8211; Feb 2</em>
 				</div>
-                
-                
-                
-                
-                
 				<div class="panel">
-					<p><span class="day">11</span> <span class="month">Jan</span></p><h3>Deadline to Apply for Scholarship</h3>
+					<p><span class="day">11</span> <span class="month">Jan</span></p>
+					<h3>Deadline to Apply for Scholarship</h3>
 				</div>
-                
-                
-                
 				<div class="panel">
 					<p><span class="day">3</span> <span class="month">Feb</span></p>
 					<h3>Classes begin</h3>
 					<em>Late Registration</em>
 				</div>
-                
-                
-                
-                
-                				<div class="panel">
+                <div class="panel">
 					<p><span class="day">9</span> <span class="month">Mar</span></p>
 					<h3>Last Day to Drop Classes</h3>
 				</div>
-                
-                
-                
-
-                
-                
-                
 				<div class="panel">
 					<p><span class="day">31</span> <span class="month">Mar</span></p>
 					<h3>Holiday</h3>
 					<em>No Classes</em>
 				</div>	
-                
-    
-   
-                
-                
 				<div class="panel">
 					<p><span class="day">14</span> <span class="month">Apr</span></p>
 					<h3>Classes End</h3>
@@ -179,14 +58,72 @@
 				</div>			
 			</div>
 			</article>
-			
 			<br class="clear_break" />		
-            
-            
-            
-            
-            
-            
+            <article class="m_summer">
+			<h3 class="expandNextContainer">Summer 2018</h3>
+			<div>
+				<div class="panel">
+					<p><span class="day">2</span> <span class="month">Apr</span></p>
+					<h3>Registration Opens</h3>
+					<em>Registration Period:<br/>Apr 2 &#8211; June 1</em>
+				</div>     
+				<div class="panel">
+					<p><span class="day">5</span> <span class="month">Apr</span></p>
+					<h3>Deadline to Apply for Scholarship</h3>
+				</div>
+				<div class="panel">
+					<p><span class="day">2</span> <span class="month">June</span></p>
+					<h3>Classes begin</h3>
+					<em>Late Registration</em>
+				</div>
+				<div class="panel">
+					<p><span class="day">6</span> <span class="month">July</span></p>
+					<h3>Last Day to Drop Classes</h3>
+				</div>
+				<div class="panel">
+					<p><span class="day">11</span> <span class="month">Aug</span></p>
+					<h3>Classes End</h3>
+					<em>Open House</em>
+				</div>			
+			</div>
+			</article>
+		
+			<br class="clear_break" />		
+			<article class="m_fall">
+			<h3 class="expandNextContainer">Fall 2018</h3>
+			<div>
+				<div class="panel">
+					<p><span class="day">27</span> <span class="month">Aug</span></p>
+					<h3>Registration Opens</h3>
+					<em>Registration Period:<br/>Aug 27 &#8211; Sept 28</em>
+				</div>
+				<div class="panel">
+					<p><span class="day">30</span> <span class="month">Aug</span></p>
+					<h3>Deadline to Apply for Scholarship</h3>
+				</div>
+				<div class="panel">
+					<p><span class="day">29</span> <span class="month">Sept</span></p>
+					<h3>Classes begin</h3>
+					<em>Late Registration</em>
+				</div>
+   				<div class="panel">
+					<p><span class="day">2</span> <span class="month">Nov</span></p>
+					<h3>Last Day to Drop Classes</h3>
+				</div>
+				<div class="panel">
+					<p><span class="day">24</span> <span class="month">Nov</span></p>
+					<h3>Holiday</h3>
+					<em>No Classes</em>
+				</div>	
+                
+				<div class="panel">
+					<p><span class="day">8</span> <span class="month">Dec</span></p>
+					<h3>Classes End</h3>
+					<em>Open House</em>
+				</div>			
+			</div>
+			</article>        
+
 		</div>
 	</div>
 </div>

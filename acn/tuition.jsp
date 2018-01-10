@@ -69,73 +69,94 @@
 						<h4>K-12 Art Teachers and Arts Providers:</h4>
 						<p>Professional Development Discount: Special 50% Discount. Expand your art teaching capabilities to include disciplines such as graphic design, product and transportation design, photography, Web design, and more. Challenge your students to think creatively and critically while introducing them to possible careers in the visual arts and design. ACN is pleased to support K-12 art teachers and arts providers by offering the following introductory courses at 50 percent off regular tuition. Please provide proof of employment such as a letter from your school district, principal or supervisor, verifying your current employment status as a K-12 art teacher or arts provider. We must receive proof of employment each term before we can process your registration or approve this discount.</p>
 						<p>
-						<table>
-						  <tbody>
-							<tr>
-								<td>ACN-007&emsp;</td>
-								<td>Design 360</td>
-							<tr>
-								<td>ACN-009&emsp;</td>
-								<td>Introduction to Figure Drawing</td>
-							<tr>
-								<td>ACN-116W&emsp;</td>
-								<td>Basics of Painting: Still life</td>
-							<tr>
-								<td>ACN-115W&emsp;</td>
-								<td>Basics of Painting: Figure</td>
-							<tr>
-								<td>ACN-020&emsp;</td>
-								<td>Introduction to Painting</td>
-							<tr>
-								<td>ACN-030&emsp;</td>
-								<td>Introduction to Graphic Design</td>
-							<tr>
-								<td>ACN-040&emsp;</td>
-								<td>Introduction to Advertising</td>
-							<tr>
-								<td>ACN-256&emsp;</td>
-								<td>Introduction to Package Design</td>
-							<tr>
-								<td>ACN-142&emsp;</td>
-								<td>Basics of Digital Photography</td>
-							<tr>
-								<td>ACN-151&emsp;</td>
-								<td>Introduction to Filmmaking</td>
-							<tr>
-								<td>ACN-224&emsp;</td>
-								<td>Illustration Techniques and Concepts</td>
-							<tr>
-								<td>ACN-101&emsp;</td>
-								<td>Digital Design 1</td>
-							<tr>
-								<td>ACN-190&emsp;</td>
-								<td>Web Fundamentals</td>
-							<tr>
-								<td>ACN-191&emsp;</td>
-								<td>Web Fundamentals: Online</td>
-							<tr>
-								<td>ACN-200&emsp;</td>
-								<td>Introduction to Interaction Design</td>      
-							<tr>
-								<td>ACN-086&emsp;</td>
-								<td>Product Design: Basics</td>
-							<tr>
-								<td>ACN-087&emsp;</td>
-								<td>Product Design: Process</td>
-							<tr>
-								<td>ACN-050&emsp;</td>
-								<td>Introduction to Product and Transportation Design</td>
-							<tr>
-								<td>ACN-038&emsp;</td>
-								<td>Introduction to Communication Sketching</td>
-							<tr>
-								<td>ACN-060&emsp;</td>
-								<td>Introduction to Environmental Design</td>
-							<tr>
-								<td>ACN-045&emsp;</td>
-								<td>Introduction to Entertainment Design</td>
-						  </tbody>
-						</table>
+							<table>
+							  <tbody>
+								<tr>
+									<td>ACN-007&emsp;</td>
+									<td>Design 360</td>
+								</tr>
+								<tr>
+									<td>ACN-009&emsp;</td>
+									<td>Introduction to Figure Drawing</td>
+								</tr>
+								<tr>
+									<td>ACN-116W&emsp;</td>
+									<td>Basics of Painting: Still life</td>
+								</tr>
+								<tr>
+									<td>ACN-115W&emsp;</td>
+									<td>Basics of Painting: Figure</td>
+								</tr>
+								<tr>
+									<td>ACN-020&emsp;</td>
+									<td>Introduction to Painting</td>
+								</tr>
+								<tr>
+									<td>ACN-030&emsp;</td>
+									<td>Introduction to Graphic Design</td>
+								</tr>
+								<tr>
+									<td>ACN-040&emsp;</td>
+									<td>Introduction to Advertising</td>
+								</tr>
+								<tr>
+									<td>ACN-256&emsp;</td>
+									<td>Introduction to Package Design</td>
+								</tr>
+								<tr>
+									<td>ACN-142&emsp;</td>
+									<td>Basics of Digital Photography</td>
+								</tr>
+								<tr>
+									<td>ACN-151&emsp;</td>
+									<td>Introduction to Filmmaking</td>
+								</tr>
+								<tr>
+									<td>ACN-224&emsp;</td>
+									<td>Illustration Techniques and Concepts</td>
+								</tr>
+								<tr>
+									<td>ACN-101&emsp;</td>
+									<td>Digital Design 1</td>
+								</tr>
+								<tr>
+									<td>ACN-190&emsp;</td>
+									<td>Web Fundamentals</td>
+								</tr>
+								<tr>
+									<td>ACN-191&emsp;</td>
+									<td>Web Fundamentals: Online</td>
+								</tr>
+								<tr>
+									<td>ACN-200&emsp;</td>
+									<td>Introduction to Interaction Design</td>      
+								</tr>
+								<tr>
+									<td>ACN-086&emsp;</td>
+									<td>Product Design: Basics</td>
+								</tr>
+								<tr>
+									<td>ACN-087&emsp;</td>
+									<td>Product Design: Process</td>
+								</tr>
+								<tr>
+									<td>ACN-050&emsp;</td>
+									<td>Introduction to Product and Transportation Design</td>
+								</tr>
+								<tr>
+									<td>ACN-038&emsp;</td>
+									<td>Introduction to Communication Sketching</td>
+								</tr>
+								<tr>
+									<td>ACN-060&emsp;</td>
+									<td>Introduction to Environmental Design</td>
+								</tr>
+								<tr>
+									<td>ACN-045&emsp;</td>
+									<td>Introduction to Entertainment Design</td>
+								</tr>
+							  </tbody>
+							</table>
 						</p>
 						<p>Note: This discount does not apply to lab fees or late fees, which must be paid in full at the time of registration.</p>
 					</div>
@@ -161,170 +182,173 @@
 
 						<p>The refund schedule is as follows:</p>
 
-						<h2>Refund Calendar </h2>
-                        
-                        
-                        				  <p><table>
-						  <tbody>
-							<tr>
-								<td colspan="2"><span class="highlight">Fall 2017 10–14-week courses</span></td>
-							</tr>
-							<tr>
-								<td width="209">Before September 8, 2017</td>
-								<td width="157">100%</td>
-							</tr>
-							<tr>
-								<td>September 11-September 22</td>
-								<td>80%</td>
-							</tr>
-							<tr>
-								<td>September 25-September 29</td>
-								<td>60%</td>
-							</tr>
-							<tr>
-								<td>October 2-October 6</td>
-								<td>40%</td>
-							</tr>
-							<tr>
-								<td>October 9-October 13</td>
-								<td>20%</td>
-							</tr>
-							<tr>
-								<td>October 16-October 27</td>
-								<td>0%</td>
-							</tr>
-							<tr>
-								<td>October 27</td>
-								<td>Last day to drop a course</td>
-							</tr>
-					    </tbody>
-					  </table></p>
-                        
-                        
-					  <p><table>
-						  <tbody>
-							<tr>
-								<td colspan="2"><span class="highlight">Spring 2018 10–14-week courses</span></td>
-							</tr>
-							<tr>
-								<td width="209">Before January 12, 2018</td>
-								<td width="157">100%</td>
-							</tr>
-							<tr>
-								<td>January 15-January 26</td>
-								<td>80%</td>
-							</tr>
-							<tr>
-								<td>January 29-February 2</td>
-								<td>60%</td>
-							</tr>
-							<tr>
-								<td>February 5-February 9</td>
-								<td>40%</td>
-							</tr>
-							<tr>
-								<td>Febuary 12-February 16</td>
-								<td>20%</td>
-							</tr>
-							<tr>
-								<td>February 19-March 2</td>
-								<td>0%</td>
-							</tr>
-							<tr>
-								<td>March 2</td>
-								<td>Last day to drop a course</td>
-							</tr>
-					    </tbody>
-					  </table></p>
-                      
-                      
-                      <p><table>
-						  <tbody>
-							<tr>
-								<td colspan="2"><span class="highlight">Summer 2018 10–14-week courses</span></td>
-							</tr>
-							<tr>
-								<td width="209">Before May 11, 2018</td>
-								<td width="157">100%</td>
-							</tr>
-							<tr>
-								<td>May 14-May 25</td>
-								<td>80%</td>
-							</tr>
-							<tr>
-								<td>May 28-June 1</td>
-								<td>60%</td>
-							</tr>
-							<tr>
-								<td>June 4-June 8</td>
-								<td>40%</td>
-							</tr>
-							<tr>
-								<td>June 11-June 15</td>
-								<td>20%</td>
-							</tr>
-							<tr>
-								<td>June 18-June 29</td>
-								<td>0%</td>
-							</tr>
-							<tr>
-								<td>June 29</td>
-								<td>Last day to drop a course</td>
-							</tr>
-					    </tbody>
-					  </table></p></div>
-                        
-                        
-						
-					  <p>For shorter courses, if you drop a course before the first day of the course, you will receive a refund. The refund policy for shorter courses is as follows:</p>
-						<p>
-						<table>
-						  <tbody>
-							<tr>
-								<td colspan="2"><span class="highlight">Four- to Seven-week courses</span></td>
-							</tr>
-							<tr>
-								<td width="249">Before class begins (one day)&emsp;</td>
-								<td width="49">100%</td>
-							</tr>
-							<tr>
-								<td>One to seven days after class starts&emsp;</td>
-								<td>80%</td>
-							</tr>
-							<tr>
-								<td>Eight to 14 days after class starts&emsp;</td>
-								<td>20%</td>
-							</tr>
-							<tr>
-								<td>Fifteen to 21 days after class starts&emsp;</td>
-								<td>0%</td>
-							</tr>
-						  </tbody>
-						</table>
+						<h2>Refund Calendar </h2>                
+                        <p>
+                        	<table>
+						  		<tbody>
+									<tr>
+										<td colspan="2"><span class="highlight">Fall 2017 10–14-week courses</span></td>
+									</tr>
+									<tr>
+										<td width="209">Before September 8, 2017</td>
+										<td width="157">100%</td>
+									</tr>
+									<tr>
+										<td>September 11-September 22</td>
+										<td>80%</td>
+									</tr>
+									<tr>
+										<td>September 25-September 29</td>
+										<td>60%</td>
+									</tr>
+									<tr>
+										<td>October 2-October 6</td>
+										<td>40%</td>
+									</tr>
+									<tr>
+										<td>October 9-October 13</td>
+										<td>20%</td>
+									</tr>
+									<tr>
+										<td>October 16-October 27</td>
+										<td>0%</td>
+									</tr>
+									<tr>
+										<td>October 27</td>
+										<td>Last day to drop a course</td>
+									</tr>
+							    </tbody>
+							</table>
 						</p>
-						
+	                        
+	                        
 						<p>
-						<table>
-						  <tbody>
-							<tr>
-								<td colspan="2"><span class="highlight">One- to Seven-day courses</span></td>
-							</tr>
-							<tr>
-								<td width="247">Before class begins (one day)&emsp;&emsp;&emsp;&emsp;</td>
-								<td width="48">100%</td>
-							</tr>
-							<tr>
-								<td>After class begins&emsp;</td>
-								<td>0%</td>
-							</tr>
-						  </tbody>
-						</table>
+						  	<table>
+							  	<tbody>
+									<tr>
+										<td colspan="2"><span class="highlight">Spring 2018 10–14-week courses</span></td>
+									</tr>
+									<tr>
+										<td width="209">Before January 12, 2018</td>
+										<td width="157">100%</td>
+									</tr>
+									<tr>
+										<td>January 15-January 26</td>
+										<td>80%</td>
+									</tr>
+									<tr>
+										<td>January 29-February 2</td>
+										<td>60%</td>
+									</tr>
+									<tr>
+										<td>February 5-February 9</td>
+										<td>40%</td>
+									</tr>
+									<tr>
+										<td>Febuary 12-February 16</td>
+										<td>20%</td>
+									</tr>
+									<tr>
+										<td>February 19-March 2</td>
+										<td>0%</td>
+									</tr>
+									<tr>
+										<td>March 2</td>
+										<td>Last day to drop a course</td>
+									</tr>
+							    </tbody>
+						  	</table>
 						</p>
-
-						<p>If you are enrolled in a shorter workshop or a course that begins after the first week of classes, please consult the Public Programs office for the refund schedule.</p>
-						<p>Failure to drop a class officially can result in a grade of F for that course. Tuition and fees are due in full at the time or registration. Any unpaid tuition and fees as a result of returned checks, account holds, etc. are due immediately. If you decide to withdraw (or are dismissed from classes) your tuition will be refunded according to the refund schedule above.</p>
-						<p>If you have not paid all tuition and fees, you may owe a balance to ArtCenter regardless of when you withdraw during the term.</p>
+	                      
+	                      
+		                <p>
+		                  	<table>
+								<tbody>
+									<tr>
+										<td colspan="2"><span class="highlight">Summer 2018 10–14-week courses</span></td>
+									</tr>
+									<tr>
+										<td width="209">Before May 11, 2018</td>
+										<td width="157">100%</td>
+									</tr>
+									<tr>
+										<td>May 14-May 25</td>
+										<td>80%</td>
+									</tr>
+									<tr>
+										<td>May 28-June 1</td>
+										<td>60%</td>
+									</tr>
+									<tr>
+										<td>June 4-June 8</td>
+										<td>40%</td>
+									</tr>
+									<tr>
+										<td>June 11-June 15</td>
+										<td>20%</td>
+									</tr>
+									<tr>
+										<td>June 18-June 29</td>
+										<td>0%</td>
+									</tr>
+									<tr>
+										<td>June 29</td>
+										<td>Last day to drop a course</td>
+									</tr>
+							    </tbody>
+						  	</table>
+						</p>
 					</div>
+				
+					<p>For shorter courses, if you drop a course before the first day of the course, you will receive a refund. The refund policy for shorter courses is as follows:</p>
+
+					<p>
+						<table>
+							<tbody>
+								<tr>
+									<td colspan="2"><span class="highlight">Four- to Seven-week courses</span></td>
+								</tr>
+								<tr>
+									<td width="249">Before class begins (one day)&emsp;</td>
+									<td width="49">100%</td>
+								</tr>
+								<tr>
+									<td>One to seven days after class starts&emsp;</td>
+									<td>80%</td>
+								</tr>
+								<tr>
+									<td>Eight to 14 days after class starts&emsp;</td>
+									<td>20%</td>
+								</tr>
+								<tr>
+									<td>Fifteen to 21 days after class starts&emsp;</td>
+									<td>0%</td>
+								</tr>
+							</tbody>
+						</table>
+					</p>
+							
+					<p>
+						<table>
+							  <tbody>
+								<tr>
+									<td colspan="2"><span class="highlight">One- to Seven-day courses</span></td>
+								</tr>
+								<tr>
+									<td width="247">Before class begins (one day)&emsp;&emsp;&emsp;&emsp;</td>
+									<td width="48">100%</td>
+								</tr>
+								<tr>
+									<td>After class begins&emsp;</td>
+									<td>0%</td>
+								</tr>
+							  </tbody>
+						</table>
+					</p>
+
+					<p>If you are enrolled in a shorter workshop or a course that begins after the first week of classes, please consult the Public Programs office for the refund schedule.</p>
+					<p>Failure to drop a class officially can result in a grade of F for that course. Tuition and fees are due in full at the time or registration. Any unpaid tuition and fees as a result of returned checks, account holds, etc. are due immediately. If you decide to withdraw (or are dismissed from classes) your tuition will be refunded according to the refund schedule above.</p>
+					<p>If you have not paid all tuition and fees, you may owe a balance to ArtCenter regardless of when you withdraw during the term.</p>
 				</li>			
 			</ul>
 			

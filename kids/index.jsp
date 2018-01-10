@@ -23,7 +23,7 @@
 
 				<%@ include file="/includes/home_stepcarousel.jsp" %>
 
-				<a href="calendar.jsp" id="calendar_headline">2017-2018 Calendar</a>
+				<a href="calendar.jsp" id="calendar_headline">Spring 2018 Calendar</a>
 
 				<dl id="calendar_list">
 					<dt>

@@ -1,0 +1,2 @@
+<div id="header"><a href="http://www.artcenter.edu" target="_blank"><img src="images/spacer.gif" alt="ArtCenter College of Design" width="152" height="40" border="0" longdesc="http://www.artcenter.edu" style="float:left;" /></a>
+</div>

@@ -22,7 +22,7 @@
 
 		<div id="centercol" class="col">
 
-			<h1>Policies & Procedures</h1>
+			<h1>Policies &amp; Procedures</h1>
 
 			<p>The ACN Student Guide is a complete guide to ACN's policies, procedures and important information. Copies are available in the Public Programs office.</p>
 
