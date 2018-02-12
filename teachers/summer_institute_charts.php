@@ -42,7 +42,7 @@ body {
 
 <div id="contentArea">
 
-	<h1>2017 Summer Institute for Teachers </h1>
+	<h1>2018 Summer Institute for Teachers </h1>
 <h2>Charts</h2>
 <div style="float:left; text-align:center; width:180px; font-size: 85%;">
   <a href="pdf/2014_Ciriculum_Integration_Chart.pdf"><img src="images/2014_ciriculum_integration_chart_th.gif" width="120" height="155" border="1" /><br />

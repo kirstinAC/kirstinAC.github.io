@@ -1,0 +1,14 @@
+.ddimgtooltip{
+-webkit-box-shadow: 7px 7px 30px 2px rgba(0,0,0,0.16);
+-moz-box-shadow: 7px 7px 30px 2px rgba(0,0,0,0.16);
+box-shadow: 7px 7px 30px 2px rgba(0,0,0,0.16);
+display:none;
+position:absolute;
+border:none;
+/* background:white; */
+color: black;
+z-index:2000;
+padding: 0px;
+font-size: 0px;
+float:left;
+}

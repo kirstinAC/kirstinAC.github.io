@@ -77,6 +77,11 @@
 					<em>Late Registration</em>
 				</div>
 				<div class="panel">
+					<p><span class="day">25</span> <span class="month">June</span></p>
+					<h3>Summer Workshops Begin</h3>
+					<em>June 25 - August 10</em>
+				</div>
+				<div class="panel">
 					<p><span class="day">6</span> <span class="month">July</span></p>
 					<h3>Last Day to Drop Classes</h3>
 				</div>
