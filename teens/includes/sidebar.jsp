@@ -14,10 +14,10 @@
 	<%@ include file="/includes/signin.jsp" %>
 	<a href="calendar.jsp" id="calendar_headline">Calendar</a>
 	<dl id="calendar_list">
-		<dt><span class="day">8</span> <span class="month">January</span></dt>
+		<dt><span class="day">2</span> <span class="month">April</span></dt>
 		<dd>Registration Begins</dd>
 		<span class="line"></span>
-		<dt><span class="day">3</span> <span class="month">February</span></dt>
+		<dt><span class="day">2</span> <span class="month">June</span></dt>
 		<dd>Classes Begin</em></dd>
 		<span class="line"></span>
 	</dl>

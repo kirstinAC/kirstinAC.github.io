@@ -27,28 +27,29 @@
 
 				<dl id="calendar_list">
 					<dt>
-						<span class="day">29</span> 
-						<span class="month">Jan</span>
-					</dt>
-					<dd>Spring registration begins</dd>
-					<dt>
-						<span class="day">01</span> 
-						<span class="month">Feb</span>
-					</dt>
-					<dd>Deadline to apply for Spring scholarships</dd>
-					<dt>
-						<span class="day">25</span> 
-						<span class="month">Feb</span>
-					</dt>
-					<dd>Spring classes begin</dd>	
-					<dt>
 						<span class="day">15</span> 
 						<span class="month">APR</span>
 					</dt>
 					<dd>Spring classes end<br />
 						<span>Open House<br/>
 						3:30pm</span>
-					</dd>				
+					</dd>	
+					<dt>
+						<span class="day">29</span> 
+						<span class="month">May</span>
+					</dt>
+					<dd>Spring registration begins</dd>
+					<dt>
+						<span class="day">31</span> 
+						<span class="month">May</span>
+					</dt>
+					<dd>Deadline to apply for Spring scholarships</dd>
+					<dt>
+						<span class="day">24</span> 
+						<span class="month">June</span>
+					</dt>
+					<dd>Spring classes begin</dd>	
+								
 				</dl>
 
 				<ul id="home_specials">

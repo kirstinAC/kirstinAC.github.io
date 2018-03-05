@@ -24,7 +24,13 @@
 	<div id="content_wrapper">
 		<div id="content">
 
-			<jsp:setProperty name="resource" property="key" value="SummerWorkshopsContentText" /><jsp:getProperty name="resource" property="value" />		
+			<h3>Summer Workshops</h3>
+			<p>ArtCenter for Teens offers an expanded series of one- and two-week workshops in the summer, designed to give student an intensive, unique experience in art and design. Classes meet between <b>June 25 and August 10</b> at South Campus Mondays through Fridays from 9 a.m. to 3:50 p.m.</p> 
+			
+			<p>Enrollment is limited to 15 students per workshop, with the exception of digital media workshops, which are limited to 12 students.</p> 
+
+			<p>Tuition for most one-week workshops is $400, and $800 for two-week workshops.</p> 
+			<p>Summer 2018 workshop offerings and schedules will be available in early March. View the types of workshops we typically offer <a href="/teens/classdescriptions.jsp">here</a>.</p>		
 
 		</div>
 	</div>

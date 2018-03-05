@@ -20,7 +20,7 @@
 					<%@ include file="/includes/nav_classes.jsp" %>
 				</ul>
 				<div id="content">
-					<p class="intro">ArtCenter for Kids offers one-week sessions during summer, between June 26 and August 11. Workshops are held at South Campus Monday through Friday from 9 a.m. to noon. The cost, which includes all materials, is $260 per course, with the exception of <i>Photography Book Workshop</i>, which is $275. <a href="scholarships.jsp">Scholarships</a> are available. </p>
+					<p class="intro">ArtCenter for Kids offers one-week sessions during summer, between June 25 and August 10. Workshops are held at South Campus Monday through Friday from 9 a.m. to noon. The cost, which includes all materials, is $300 per course, with the exception of <i>Photography Book Workshop</i>, which is $375. <a href="scholarships.jsp">Scholarships</a> are available. </p>
 					<p>View the types of workshops we typically offer <a href="class_descriptions.jsp">here</a>.</p>
 				</div>
 				<br class="clear_break" />

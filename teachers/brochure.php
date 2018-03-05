@@ -45,11 +45,11 @@ body {
 
 <div id="contentArea">
 
-	<h1><a href="http://www.artcenter.edu/teachers/Registration-Form-2017.pdf" target=newwindow>Brochure</a></h1>
+	<h1><a href="http://www.artcenter.edu/teachers/registration.pdf" target=newwindow>Brochure</a></h1>
     
     
     
-	<p><a href="http://www.artcenter.edu/teachers/Registration-Form-2017.pdf" target=newwindow><img src="Registration-Form-2017-1.jpg" width="640" height="923" alt="Registration Form 2017" /></a></p>
+	<p><a href="http://www.artcenter.edu/teachers/registration.pdf" target=newwindow><img src="registration.jpg" width="640" height="923" alt="Registration Form 2017" /></a></p>
 	<h3>&nbsp;</h3>
 </div>
 	

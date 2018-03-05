@@ -25,8 +25,10 @@
 					</div>
 					<p class="intro">We believe that every child should have the opportunity to explore their love of art and design, regardless of financial means. To this end, scholarships are offered to those demonstrating need.</p>
 					<h4>Scholarship Application Deadlines</h4>
-					<p>	Fall 2017: September 28<br/>
-						Spring 2018: February 1</p>
+					<p>Summer 2018: May 31<br />
+					Fall 2018: September 27<br />
+					Spring 2019: January 31</>
+					</ul>
 					<h4>To Apply for a Scholarship<br />
 					</h4>
 					<p>Complete the entire <a href="/kids/pdf/KIDS_Reg_Form.pdf" class="registration_form" target="_regform">registration form</a>, including the scholarship section.  Mail the completed form to:<strong></strong></p>
