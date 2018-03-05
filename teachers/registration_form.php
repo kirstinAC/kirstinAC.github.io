@@ -45,11 +45,11 @@ body {
 
 <div id="contentArea">
 
-	<h1><a href="http://www.artcenter.edu/teachers/Summer-Institute-Application-2017.pdf" target=newwindow>Registration Form</a></h1>
+	<h1><a href="http://www.artcenter.edu/teachers/summer-institute-applicatoin.pdf" target=newwindow>Registration Form</a></h1>
     
     
     
-	<p><a href="http://www.artcenter.edu/teachers/Summer-Institute-Application-2017.pdf" target=newwindow><img src="Summer-Institute-Application-2017.jpg" width="640" alt="Registration Form" /></a></p>
+	<p><a href="http://www.artcenter.edu/teachers/summer-institute-application.pdf" target=newwindow><img src="summer-institute-application.jpg" width="640" alt="Summer Institute Registration Form" /></a></p>
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
     <h3>&nbsp;</h3>
